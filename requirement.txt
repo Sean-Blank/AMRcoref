@@ -1,0 +1,4 @@
+pytorch
+transformers
+pytorch_pretrained_bert
+scipy
