@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE msamr SYSTEM "msamr.dtd">
+
+<document>
+   <sentences annotator="anno4" docid="bolt-eng-DF-200-192453-5807549" end="" site="UColorado" sourcetype="BOLT" start="" threadid="bolt-eng-DF-200-192453-5807549">
+      <amr id="DF-200-192453-580_7549.1" order="1" post="p1" speaker="unk" su="1"/>
+      <amr id="DF-200-192453-580_7549.2" order="2" post="p1" speaker="unk" su="2"/>
+      <amr id="DF-200-192453-580_7549.3" order="3" post="p1" speaker="unk" su="3"/>
+      <amr id="DF-200-192453-580_7549.4" order="4" post="p1" speaker="unk" su="4"/>
+      <amr id="DF-200-192453-580_7549.5" order="5" post="p1" speaker="unk" su="5"/>
+      <amr id="DF-200-192453-580_7549.6" order="6" post="p1" speaker="unk" su="6"/>
+      <amr id="DF-200-192453-580_7549.7" order="7" post="p2" speaker="unk" su="1"/>
+      <amr id="DF-200-192453-580_7549.8" order="8" post="p2" speaker="unk" su="2"/>
+      <amr id="DF-200-192453-580_7549.9" order="9" post="p2" speaker="unk" su="3"/>
+      <amr id="DF-200-192453-580_7549.10" order="10" post="p2" speaker="unk" su="4"/>
+      <amr id="DF-200-192453-580_7549.11" order="11" post="p6" speaker="unk" su="1"/>
+      <amr id="DF-200-192453-580_7549.12" order="12" post="p6" speaker="unk" su="2"/>
+      <amr id="DF-200-192453-580_7549.13" order="13" post="p6" speaker="unk" su="3"/>
+      <amr id="DF-200-192453-580_7549.14" order="14" post="p6" speaker="unk" su="4"/>
+      <amr id="DF-200-192453-580_7549.15" order="15" post="p6" speaker="unk" su="5"/>
+      <amr id="DF-200-192453-580_7549.16" order="16" post="p6" speaker="unk" su="6"/>
+      <amr id="DF-200-192453-580_7549.17" order="17" post="p6" speaker="unk" su="7"/>
+   </sentences>
+   <relations>
+      <identity>
+         <identchain relationid="rel-0">
+            <mention concept="country" id="DF-200-192453-580_7549.5" variable="c6">United_Kingdom</mention>
+            <mention concept="country" id="DF-200-192453-580_7549.3" variable="c2">United_Kingdom</mention>
+            <mention concept="country" id="DF-200-192453-580_7549.17" variable="c2">United_Kingdom</mention>
+            <mention concept="country" id="DF-200-192453-580_7549.2" variable="c">United_Kingdom</mention>
+            <mention concept="country" id="DF-200-192453-580_7549.4" variable="c3">United_Kingdom</mention>
+            <mention concept="country" id="DF-200-192453-580_7549.9" variable="c">United_Kingdom</mention>
+         </identchain>
+         <identchain relationid="rel-1">
+            <mention concept="country" id="DF-200-192453-580_7549.2" variable="c3">England</mention>
+            <mention concept="country" id="DF-200-192453-580_7549.6" variable="c">England</mention>
+            <mention concept="country" id="DF-200-192453-580_7549.17" variable="c3">England</mention>
+            <mention concept="country" id="DF-200-192453-580_7549.4" variable="c2">England</mention>
+         </identchain>
+         <identchain relationid="rel-2">
+            <mention concept="you" id="DF-200-192453-580_7549.14" variable="y"/>
+            <mention concept="i" id="DF-200-192453-580_7549.13" variable="i"/>
+            <mention concept="you" id="DF-200-192453-580_7549.16" variable="y"/>
+            <mention concept="i" id="DF-200-192453-580_7549.9" variable="i"/>
+            <mention concept="i" id="DF-200-192453-580_7549.17" variable="i"/>
+            <mention concept="i" id="DF-200-192453-580_7549.7" variable="i"/>
+            <mention concept="you" id="DF-200-192453-580_7549.3" variable="y"/>
+            <mention concept="i" id="DF-200-192453-580_7549.1" variable="i"/>
+            <mention concept="i" id="DF-200-192453-580_7549.3" variable="i2"/>
+            <mention concept="you" id="DF-200-192453-580_7549.11" variable="y"/>
+            <mention concept="you" id="DF-200-192453-580_7549.17" variable="y"/>
+            <mention concept="i" id="DF-200-192453-580_7549.4" variable="i"/>
+            <mention concept="i" id="DF-200-192453-580_7549.2" variable="i"/>
+            <mention concept="i" id="DF-200-192453-580_7549.10" variable="i"/>
+         </identchain>
+         <identchain relationid="rel-3">
+            <mention concept="bus" id="DF-200-192453-580_7549.1" variable="b2"/>
+            <mention concept="bus" id="DF-200-192453-580_7549.2" variable="b"/>
+         </identchain>
+         <identchain relationid="rel-4">
+            <mention concept="person" id="DF-200-192453-580_7549.5" variable="p2"/>
+            <mention concept="person" id="DF-200-192453-580_7549.5" variable="p3"/>
+         </identchain>
+         <identchain relationid="rel-5">
+            <mention concept="he" id="DF-200-192453-580_7549.5" variable="h"/>
+            <mention concept="he" id="DF-200-192453-580_7549.16" variable="h"/>
+            <mention concept="person" id="DF-200-192453-580_7549.3" variable="p"/>
+            <mention concept="person" id="DF-200-192453-580_7549.1" variable="p"/>
+         </identchain>
+         <identchain relationid="rel-6">
+            <mention concept="come-01" id="DF-200-192453-580_7549.3" variable="c"/>
+            <mention concept="that" id="DF-200-192453-580_7549.5" variable="t2"/>
+            <mention concept="that" id="DF-200-192453-580_7549.4" variable="t"/>
+         </identchain>
+         <identchain relationid="rel-7">
+            <mention concept="jump-03" id="DF-200-192453-580_7549.16" variable="j"/>
+            <mention concept="say-01" id="DF-200-192453-580_7549.3" variable="s"/>
+            <mention concept="say-01" id="DF-200-192453-580_7549.5" variable="s2"/>
+         </identchain>
+         <identchain relationid="rel-8">
+            <mention concept="we" id="DF-200-192453-580_7549.5" variable="w2"/>
+            <mention concept="everyone" id="DF-200-192453-580_7549.1" variable="e"/>
+         </identchain>
+         <identchain relationid="rel-9">
+            <mention concept="that" id="DF-200-192453-580_7549.12" variable="t"/>
+            <mention concept="allow-01" id="DF-200-192453-580_7549.11" variable="a"/>
+            <mention concept="state-01" id="DF-200-192453-580_7549.11" variable="s"/>
+            <mention concept="that" id="DF-200-192453-580_7549.12" variable="t3"/>
+         </identchain>
+         <identchain relationid="rel-10">
+            <mention concept="pride-01" id="DF-200-192453-580_7549.13" variable="p"/>
+            <mention concept="identify-01" id="DF-200-192453-580_7549.17" variable="i2"/>
+            <mention concept="attach-01" id="DF-200-192453-580_7549.14" variable="a"/>
+            <mention concept="pride-01" id="DF-200-192453-580_7549.6" variable="p"/>
+         </identchain>
+         <identchain relationid="rel-11">
+            <mention concept="nationality" id="DF-200-192453-580_7549.8" variable="n"/>
+            <mention concept="place" id="DF-200-192453-580_7549.7" variable="p4"/>
+         </identchain>
+         <identchain relationid="rel-12">
+            <mention concept="location" id="DF-200-192453-580_7549.1" variable="l2"/>
+            <implicitrole argument="ARG1" id="DF-200-192453-580_7549.2" parentconcept="ask-01" parentvariable="a2"/>
+         </identchain>
+      </identity>
+      <singletons>
+         <identchain relationid="singleton-14">
+            <mention concept="one" id="DF-200-192453-580_7549.17" variable="o2"/>
+         </identchain>
+         <identchain relationid="singleton-16">
+            <mention concept="ask-01" id="DF-200-192453-580_7549.1" variable="a"/>
+         </identchain>
+         <identchain relationid="singleton-17">
+            <mention concept="ask-01" id="DF-200-192453-580_7549.2" variable="a2"/>
+         </identchain>
+      </singletons>
+      <bridging>
+         <setmember relationid="rel-13">
+            <superset id="rel-8"/>
+            <member id="rel-2"/>
+         </setmember>
+         <setmember relationid="rel-15">
+            <superset id="singleton-14"/>
+            <member id="rel-0"/>
+            <member id="rel-1"/>
+         </setmember>
+         <setmember relationid="rel-18">
+            <superset id="singleton-16"/>
+            <member id="singleton-17"/>
+         </setmember>
+      </bridging>
+   </relations>
+</document>

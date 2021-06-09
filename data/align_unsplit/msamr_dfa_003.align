@@ -1,0 +1,293 @@
+
+# ::id DF-200-192453-580_7549.1 ::speaker unk ::order 1
+# ::tok I was on a tour in Ireland last week when the operator on the bus asked where everyone was from .
+# ::alignments 0-1.1 4-1 5-1.2.r 6-1.2.2.1 7-1.3.1 8-1.3 9-1.3.r 9-1.4.r 11-1.4.1 11-1.4.1.1 11-1.4.1.1.r 12-1.4.1.1.1.r 14-1.4.1.1.1 15-1.4 17-1.4.2.1 19-1.4.2.1.r
+(t / tour-01~e.4
+      :ARG0 (i / i~e.0)
+      :ARG1~e.5 (c / country :wiki "Republic_of_Ireland"
+            :name (n / name :op1 "Ireland"~e.6))
+      :time~e.9 (w / week~e.8
+            :mod (l / last~e.7))
+      :time~e.9 (a / ask-01~e.15
+            :ARG0 (p / person~e.11
+                  :ARG0-of~e.11 (o / operate-01~e.11
+                        :ARG1~e.12 (b2 / bus~e.14)))
+            :ARG1 (l2 / location
+                  :source-of~e.19 (e / everyone~e.17))))
+
+# ::id DF-200-192453-580_7549.2 ::speaker unk ::order 2
+# ::tok As it happened I was the only British person on the bus , and when asked I said that I was from ' England ' .
+# ::alignments 3-1.1.2 4-1.1.2.r 6-1.1.3 7-1.1.1.2.1 7-1.1.1.2.2 8-1.1 9-1.1.4.r 11-1.1.4 13-1 15-1.2.3 16-1.2.3.1 17-1.2 19-1.2.2.1 20-1.2.2.1 23-1.2.2.2.2.1
+(a3 / and~e.13
+      :op1 (p / person~e.8
+            :mod (c / country :wiki "United_Kingdom"
+                  :name (n / name :op1 "Great"~e.7 :op2 "Britain"~e.7))
+            :domain~e.4 (i / i~e.3)
+            :mod (o / only~e.6)
+            :prep-on~e.9 (b / bus~e.11))
+      :op2 (s / say-01~e.17
+            :ARG0 i
+            :ARG1 (c2 / come-01
+                  :ARG1 i~e.19,20
+                  :ARG3 (c3 / country :wiki "England"
+                        :name (n2 / name :op1 "England"~e.23)))
+            :condition (a2 / ask-01~e.15
+                  :ARG2 i~e.16)))
+
+# ::id DF-200-192453-580_7549.3 ::speaker unk ::order 3
+# ::tok The guide then said , ' no you 're not , you 're from the United Kingdom ' and started making a big deal out of it and I got quite embarassed .
+# ::alignments 1-1.1.1 1-1.1.1.1 1-1.1.1.1.r 3-1.1 7-1.1.2.1 11-1.1.2.1 15-1.1.2.2.2.1 16-1.1.2.2.2.2 17-1.1.r 18-1 19-1.2 20-1.2.2 22-1.2.2.2.1 23-1.2.2.2 27-1 28-1.3.1 30-1.3.2
+(a / and~e.18,27
+      :op1~e.17 (s / say-01~e.3
+            :ARG0 (p / person~e.1
+                  :ARG0-of~e.1 (g / guide-01~e.1))
+            :ARG1 (c / come-01
+                  :ARG1 (y / you~e.7,11)
+                  :ARG3 (c2 / country :wiki "United_Kingdom"
+                        :name (n / name :op1 "United"~e.15 :op2 "Kingdom"~e.16))))
+      :op2 (s2 / start-01~e.19
+            :ARG0 p
+            :ARG1 (m / make-01~e.20
+                  :ARG0 p
+                  :ARG1 (d / deal-03~e.23
+                        :mod (b / big~e.22))
+                  :ARG2 c))
+      :op3 (e / embarrass-01
+            :ARG1 (i2 / i~e.28)
+            :degree (q / quite~e.30)))
+
+# ::id DF-200-192453-580_7549.4 ::speaker unk ::order 4
+# ::tok I was actually really angry at that though because I identify far more as English than I do as British .
+# ::alignments 0-1.2 2-1.4 3-1.5 4-1 5-1.1.r 6-1.1 8-1.3 9-1.2 10-1.3.1 10-1.3.1.4.3 11-1.3.1.4.2.1 12-1.3.1.4.2 13-1.3.1.3.r 14-1.3.1.3.1.2.1 15-1.3.1.4 16-1.2 18-1.3.1.4.3.3.r 19-1.3.1.4.3.3.1.2.1 19-1.3.1.4.3.3.1.2.2
+(a2 / anger-01~e.4
+      :ARG0~e.5 (t / that~e.6)
+      :ARG1 (i / i~e.0,9,16)
+      :ARG1-of (c / cause-01~e.8
+            :ARG0 (i2 / identify-01~e.10
+                  :ARG0 i
+                  :ARG1 i
+                  :ARG2~e.13 (p / person
+                        :mod (c2 / country :wiki "England"
+                              :name (n / name :op1 "England"~e.14)))
+                  :ARG2-of (h / have-degree-91~e.15
+                        :ARG1 i
+                        :ARG3 (m2 / more~e.12
+                              :quant (f / far~e.11))
+                        :ARG4 (i3 / identify-01~e.10
+                              :ARG0 i
+                              :ARG1 i
+                              :ARG2~e.18 (p2 / person
+                                    :mod (c3 / country :wiki "United_Kingdom"
+                                          :name (n2 / name :op1 "Great"~e.19 :op2 "Britain"~e.19)))))))
+      :ARG1-of (a / actual-02~e.2)
+      :degree (r / really~e.3))
+
+# ::id DF-200-192453-580_7549.5 ::speaker unk ::order 5
+# ::tok When we were in the pub later on , two Argentinians also commented , saying that they did n't think it was right for him to say that , as you would n't expect a Scottish person to say that they were from the UK .
+# ::alignments 0-1.3.3.r 0-1.3.r 1-1.3.1 2-1.3 5-1.3.2 6-1.3.2.r 6-1.3.3 9-1.1.1 10-1.1.2.2.1 11-1.2 12-1 14-1.1.3.1.3.1 15-1.1.3.1.3.1.2 18-1.1.3.1.1 18-1.1.3.1.1.r 19-1.1.3.1 22-1.1.3.1.3 24-1.1.3.1.3.1.1 26-1.1.3.1.3.1 27-1.1.3.1.3.1.2 29-1.1.3.1.4.r 29-1.3.r 30-1.1.3.1.4.1.2 32-1.1.3.1.4.1.1 32-1.1.3.1.4.1.1.r 33-1.1.3.1.4.1 35-1.1.3.1.4.1.3.1.1.2.1 36-1.1 36-1.1.3.1.4.1.3.1 37-1.1.3.1.4 38-1.1.3 38-1.1.3.1.3.1 38-1.1.3.1.4.1.3 39-1.1.3.1.3.1.2 40-1.1.3.1.4.1.3.2.1 41-1.1.3.1.4.1.3.2 42-1.1.3.1.4.1.3.2 44-1.1.3.1.4.1.3.2.2.2.1 44-1.1.3.1.4.1.3.2.2.2.2
+(c / comment-01~e.12
+      :ARG0 (p2 / person~e.36 :quant 2~e.9
+            :mod (c2 / country :wiki "Argentina"
+                  :name (n / name :op1 "Argentina"~e.10))
+            :ARG0-of (s / say-01~e.38
+                  :ARG1 (t / think-01~e.19 :polarity~e.18 -~e.18
+                        :ARG0 p2
+                        :ARG1 (r / right-02~e.22
+                              :ARG1 (s2 / say-01~e.14,26,38
+                                    :ARG0 (h / he~e.24)
+                                    :ARG1 (t2 / that~e.15,27,39)))
+                        :ARG1-of~e.29 (c3 / cause-01~e.37
+                              :ARG0 (e / expect-01~e.33 :polarity~e.32 -~e.32
+                                    :ARG0 (y / you~e.30)
+                                    :ARG1 (s3 / say-01~e.38
+                                          :ARG0 (p3 / person~e.36
+                                                :mod (c4 / country :wiki "Scotland"
+                                                      :name (n2 / name :op1 "Scotland"~e.35)))
+                                          :ARG1 (b2 / be-from-91~e.41,42
+                                                :ARG1 p3~e.40
+                                                :ARG2 (c6 / country :wiki "United_Kingdom"
+                                                      :name (n3 / name :op1 "United"~e.44 :op2 "Kingdom"~e.44)))))))))
+      :mod (a / also~e.11)
+      :time~e.0,29 (b / be-located-at-91~e.2
+            :ARG1 (w2 / we~e.1)
+            :ARG2~e.6 (p4 / pub~e.5)
+            :time~e.0 (a2 / after~e.6)))
+
+# ::id DF-200-192453-580_7549.6 ::speaker unk ::order 6
+# ::tok Is it only the English who are n't allowed this kind of pride in where they live ?
+# ::alignments 2-1.2.1.2 4-1.2.1.1.2.1 5-1.3 7-1.1 7-1.1.r 7-1.3.r 8-1 9-1.2.3.1 10-1.2.3 12-1.2 14-1.2.2.1.r 15-1.2.2.1.1 16-1.2.2.1 17-1.3.r
+(a / allow-01~e.8 :polarity~e.7 -~e.7
+      :ARG1 (p / pride-01~e.12
+            :ARG0 (p2 / person
+                  :mod (c / country :wiki "England"
+                        :name (n / name :op1 "England"~e.4))
+                  :mod (o / only~e.2))
+            :ARG1 (p3 / place
+                  :location-of~e.14 (l / live-01~e.16
+                        :ARG0 p2~e.15))
+            :mod (k / kind~e.10
+                  :mod (t / this~e.9)))
+      :polarity~e.7,17 (a2 / amr-unknown~e.5))
+
+# ::id DF-200-192453-580_7549.7 ::speaker unk ::order 7
+# ::tok Personally I find it nonsensical to be proud of something you have n't chosen or done , but it 's up to you if you want to be proud where you come from .
+# ::alignments 0-1.3 1-1.1 2-1 4-1.2 4-1.2.1 4-1.2.1.r 7-1.2.2 8-1.2.2.2.r 9-1.2.2.2 10-1.2.2.2.1.2 12-1.2.2.2.1.1 12-1.2.2.2.1.1.r 12-1.2.2.2.2.1 13-1.2.2.2.1 15-1.2.2.2.2 17-1.4.r 18-1.4.2 20-1.4 21-1.4 22-1.4.1.1 23-1.4.1.1 24-1.4.1.1 25-1.4.1 28-1.4.1.2 30-1.4.1.2.2.1.1 31-1.4.1.2.2.1
+(f / find-02~e.2
+      :ARG0 (i / i~e.1)
+      :ARG1 (s2 / sense-02~e.4 :polarity~e.4 -~e.4
+            :ARG1 (p2 / pride-01~e.7
+                  :ARG0 y
+                  :ARG2~e.8 (s / something~e.9
+                        :ARG1-of (c / choose-01~e.13 :polarity~e.12 -~e.12
+                              :ARG0 (y / you~e.10))
+                        :ARG1-of (d / do-02~e.15 :polarity -~e.12
+                              :ARG0 y))))
+      :ARG1-of (p / personal-02~e.0)
+      :concession~e.17 (d2 / depend-01~e.20,21
+            :ARG0 (w / want-01~e.25
+                  :ARG0 y~e.22,23,24
+                  :ARG1 (p3 / pride-01~e.28
+                        :ARG0 y
+                        :ARG2 (p4 / place
+                              :ARG3-of (c2 / come-01~e.31
+                                    :ARG1 y~e.30))))
+            :ARG1 y~e.18))
+
+# ::id DF-200-192453-580_7549.8 ::speaker unk ::order 8
+# ::tok I could n't care less really what my nationality was , it 's just letters on a passport ,
+# ::alignments 0-1.2.2.1 1-1 2-1.1 2-1.1.r 3-1.2.2 4-1.2.3 5-1.4 7-1.2.2.2.1 7-1.2.2.2.1.r 8-1.2.2.2 9-1.3.1.1.r 12-1.3.1.1.r 13-1.3.1.3 14-1.3.1 15-1.3.1.2.r 17-1.3.1.2
+(p / possible-01~e.1 :polarity~e.2 -~e.2
+      :ARG1 (h / have-degree-91
+            :ARG1 i
+            :ARG2 (c / care-01~e.3
+                  :ARG0 (i / i~e.0)
+                  :ARG1 (n / nationality~e.8
+                        :poss~e.7 i~e.7))
+            :ARG3 (l / less~e.4))
+      :ARG1-of (c2 / cause-01
+            :ARG0 (l2 / letter~e.14
+                  :domain~e.9,12 n
+                  :location~e.15 (p2 / passport~e.17)
+                  :mod (j / just~e.13)))
+      :ARG1-of (r / real-04~e.5))
+
+# ::id DF-200-192453-580_7549.9 ::speaker unk ::order 9
+# ::tok I still wonder what my identity is , a human being , a Brit , a European ?
+# ::alignments 0-1.1 1-1.3 2-1 4-1.2.1 4-1.2.1.r 9-1.2.2.1.1 10-1.2.2.1 16-1.2.2.3.1.2.1
+(w / wonder-01~e.2
+      :ARG0 (i / i~e.0)
+      :ARG1 (i2 / identify-01
+            :ARG1~e.4 i~e.4
+            :ARG2 (a / amr-choice
+                  :op1 (b / being~e.10
+                        :mod (h / human~e.9))
+                  :op2 (p / person
+                        :mod (c / country :wiki "United_Kingdom"
+                              :name (n / name :op1 "Great" :op2 "Britain")))
+                  :op3 (p2 / person
+                        :mod (c2 / continent :wiki "Europe"
+                              :name (n2 / name :op1 "Europe"~e.16)))))
+      :mod (s / still~e.1))
+
+# ::id DF-200-192453-580_7549.10 ::speaker unk ::order 10
+# ::tok No , I prefer to call myself a overgrown monkey .
+# ::alignments 2-1.1 3-1 5-1.2 6-1.1 9-1.2.3
+(p / prefer-01~e.3
+      :ARG0 (i / i~e.2,6)
+      :ARG1 (c / call-01~e.5
+            :ARG0 i
+            :ARG1 i
+            :ARG2 (m / monkey~e.9
+                  :ARG1-of (o / overgrow-01))))
+
+# ::id DF-200-192453-580_7549.11 ::speaker unk ::order 11
+# ::tok You are allowed to state where you 're from .
+# ::alignments 0-1.1.1 2-1 4-1.1 6-1.1.1
+(a / allow-01~e.2
+      :ARG1 (s / state-01~e.4
+            :ARG0 (y / you~e.0,6)
+            :ARG1 (l / location
+                  :ARG3-of (c / come-01
+                        :ARG1 y))))
+
+# ::id DF-200-192453-580_7549.12 ::speaker unk ::order 12
+# ::tok That is n't pride . That 's just a statement of fact .
+# ::alignments 0-1.1.2 1-1.1.2.r 2-1.1.1 2-1.1.1.r 3-1.1 5-1.2.3 6-1.2.3.r 7-1.2.2 9-1.2 10-1.2.1.r 11-1.2.1
+(m / multi-sentence
+      :snt1 (p / pride-01~e.3 :polarity~e.2 -~e.2
+            :domain~e.1 (t / that~e.0))
+      :snt2 (s2 / state-01~e.9
+            :ARG1~e.10 (f2 / fact~e.11)
+            :mod (j2 / just~e.7)
+            :domain~e.6 (t3 / that~e.5)))
+
+# ::id DF-200-192453-580_7549.13 ::speaker unk ::order 13
+# ::tok I do n't think there 's anything massively wrong to to feel a sentimental pride towards your country ,
+# ::alignments 0-1.2 2-1.1 2-1.1.r 3-1 5-1 6-1.3.1 7-1.3.3 8-1.3 11-1.3.2 13-1.3.2.2.3 14-1.3.2.2 16-1.3.2.2.2.1 16-1.3.2.2.2.1.r 17-1.3.2.2.2
+(t / think-01~e.3,5 :polarity~e.2 -~e.2
+      :ARG0 (i / i~e.0)
+      :ARG1 (w / wrong-02~e.8
+            :ARG1 (a / anything~e.6)
+            :ARG2 (f / feel-01~e.11
+                  :ARG0 y
+                  :ARG1 (p / pride-01~e.14
+                        :ARG0 y
+                        :ARG1 (c / country~e.17
+                              :poss~e.16 (y / you~e.16))
+                        :manner (s / sentiment~e.13)))
+            :degree (m / massive~e.7)))
+
+# ::id DF-200-192453-580_7549.14 ::speaker unk ::order 14
+# ::tok it is human nature to feel attached to where you come from .
+# ::alignments 1-1.2.r 2-1.1 3-1 5-1.2 6-1.2.2 9-1.2.2.2.1.1 10-1.2.2.2.1
+(n / nature~e.3
+      :mod (h / human~e.2)
+      :domain~e.1 (f / feel-01~e.5
+            :ARG0 y
+            :ARG1 (a / attach-01~e.6
+                  :ARG1 y
+                  :ARG2 (l / location
+                        :ARG3-of (c / come-01~e.10
+                              :ARG1 (y / you~e.9))))))
+
+# ::id DF-200-192453-580_7549.15 ::speaker unk ::order 15
+# ::tok It is nationalism that becomes an issue .
+# ::alignments 2-1.1 4-1 6-1.2
+(b / become-01~e.4
+      :ARG1 (n / nationalism~e.2)
+      :ARG2 (i / issue-02~e.6
+            :ARG0 n))
+
+# ::id DF-200-192453-580_7549.16 ::speaker unk ::order 16
+# ::tok His jumping down your throat was his problem .
+# ::alignments 0-1.2.1 1-1.2 2-1.2.2 3-1.2.2.1.1 3-1.2.2.1.1.r 4-1.2.2.1 5-1.2.r 6-1.2.1 7-1
+(p / problem~e.7
+      :poss (h / he)
+      :domain~e.5 (j / jump-03~e.1
+            :ARG0 h~e.0,6
+            :direction (d / down~e.2
+                  :path (t / throat~e.4
+                        :poss~e.3 (y / you~e.3)))))
+
+# ::id DF-200-192453-580_7549.17 ::speaker unk ::order 17
+# ::tok You 're from the UK and England so in my opinion which ever one you choose to identify yourself as you are correct .
+# ::alignments 0-1.1 4-1.2.1.2.1 4-1.2.1.2.2 5-1.2 6-1.2.2.2.1 7-1.3 8-1.3.1.r 9-1.3.1.3.1 9-1.3.1.3.1.r 10-1.3.1.3 13-1.3.1.2.2.3 14-1.1 15-1.3.1.2 17-1.3.1.2.2 18-1.1 20-1.1 22-1.3.1
+(c / come-01
+      :ARG1 (y / you~e.0,14,18,20)
+      :ARG3 (a / and~e.5
+            :op1 (c2 / country :wiki "United_Kingdom"
+                  :name (n / name :op1 "United"~e.4 :op2 "Kingdom"~e.4))
+            :op2 (c3 / country :wiki "England"
+                  :name (n2 / name :op1 "England"~e.6)))
+      :ARG0-of (c4 / cause-01~e.7
+            :ARG1~e.8 (c5 / correct-02~e.22
+                  :ARG1 y
+                  :concession (c6 / choose-01~e.15
+                        :ARG0 y
+                        :ARG1 (i2 / identify-01~e.17
+                              :ARG0 y
+                              :ARG1 y
+                              :ARG2 (o2 / one~e.13
+                                    :mod (w / whichever))))
+                  :ARG1-of (o / opine-01~e.10
+                        :ARG0~e.9 (i / i~e.9)))))

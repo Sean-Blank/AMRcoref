@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE msamr SYSTEM "msamr.dtd">
+
+<document>
+   <sentences annotator="anno1" docid="bolt-eng-DF-200-192403-6249834" end="" site="UColorado" sourcetype="BOLT" start="" threadid="bolt-eng-DF-200-192403-6249834">
+      <amr id="DF-200-192403-624_9834.1" order="1" post="p1" speaker="unk" su="1"/>
+      <amr id="DF-200-192403-624_9834.2" order="2" post="p1" speaker="unk" su="2"/>
+      <amr id="DF-200-192403-624_9834.3" order="3" post="p1" speaker="unk" su="3"/>
+      <amr id="DF-200-192403-624_9834.4" order="4" post="p1" speaker="unk" su="4"/>
+      <amr id="DF-200-192403-624_9834.5" order="5" post="p1" speaker="unk" su="5"/>
+      <amr id="DF-200-192403-624_9834.6" order="6" post="p1" speaker="unk" su="6"/>
+      <amr id="DF-200-192403-624_9834.7" order="7" post="p1" speaker="unk" su="7"/>
+      <amr id="DF-200-192403-624_9834.8" order="8" post="p1" speaker="unk" su="8"/>
+      <amr id="DF-200-192403-624_9834.9" order="9" post="p1" speaker="unk" su="9"/>
+      <amr id="DF-200-192403-624_9834.10" order="10" post="p1" speaker="unk" su="10"/>
+      <amr id="DF-200-192403-624_9834.11" order="11" post="p1" speaker="unk" su="11"/>
+      <amr id="DF-200-192403-624_9834.12" order="12" post="p1" speaker="unk" su="12"/>
+      <amr id="DF-200-192403-624_9834.13" order="13" post="p1" speaker="unk" su="13"/>
+      <amr id="DF-200-192403-624_9834.14" order="14" post="p2" speaker="unk" su="1"/>
+      <amr id="DF-200-192403-624_9834.15" order="15" post="p2" speaker="unk" su="2"/>
+      <amr id="DF-200-192403-624_9834.16" order="16" post="p2" speaker="unk" su="3"/>
+      <amr id="DF-200-192403-624_9834.17" order="17" post="p2" speaker="unk" su="4"/>
+      <amr id="DF-200-192403-624_9834.18" order="18" post="p2" speaker="unk" su="5"/>
+      <amr id="DF-200-192403-624_9834.19" order="19" post="p2" speaker="unk" su="6"/>
+      <amr id="DF-200-192403-624_9834.20" order="20" post="p2" speaker="unk" su="7"/>
+      <amr id="DF-200-192403-624_9834.21" order="21" post="p2" speaker="unk" su="8"/>
+      <amr id="DF-200-192403-624_9834.22" order="22" post="p2" speaker="unk" su="9"/>
+      <amr id="DF-200-192403-624_9834.23" order="23" post="p2" speaker="unk" su="10"/>
+      <amr id="DF-200-192403-624_9834.24" order="24" post="p2" speaker="unk" su="11"/>
+      <amr id="DF-200-192403-624_9834.25" order="25" post="p4" speaker="unk" su="1"/>
+      <amr id="DF-200-192403-624_9834.26" order="26" post="p4" speaker="unk" su="2"/>
+      <amr id="DF-200-192403-624_9834.27" order="27" post="p4" speaker="unk" su="3"/>
+      <amr id="DF-200-192403-624_9834.28" order="28" post="p4" speaker="unk" su="4"/>
+      <amr id="DF-200-192403-624_9834.29" order="29" post="p4" speaker="unk" su="5"/>
+      <amr id="DF-200-192403-624_9834.30" order="30" post="p4" speaker="unk" su="6"/>
+      <amr id="DF-200-192403-624_9834.31" order="31" post="p4" speaker="unk" su="7"/>
+      <amr id="DF-200-192403-624_9834.32" order="32" post="p4" speaker="unk" su="8"/>
+      <amr id="DF-200-192403-624_9834.33" order="33" post="p4" speaker="unk" su="9"/>
+      <amr id="DF-200-192403-624_9834.34" order="34" post="p4" speaker="unk" su="10"/>
+      <amr id="DF-200-192403-624_9834.35" order="35" post="p5" speaker="unk" su="1"/>
+      <amr id="DF-200-192403-624_9834.36" order="36" post="p5" speaker="unk" su="2"/>
+   </sentences>
+   <relations>
+      <identity>
+         <identchain relationid="rel-0">
+            <mention concept="product" id="DF-200-192403-624_9834.9" variable="p2">ITunes</mention>
+            <mention concept="product" id="DF-200-192403-624_9834.25" variable="p3">ITunes</mention>
+         </identchain>
+         <identchain relationid="rel-1">
+            <mention concept="she" id="DF-200-192403-624_9834.6" variable="s"/>
+            <mention concept="she" id="DF-200-192403-624_9834.5" variable="s"/>
+            <mention concept="she" id="DF-200-192403-624_9834.9" variable="s3"/>
+            <mention concept="she" id="DF-200-192403-624_9834.30" variable="s"/>
+            <mention concept="girl" id="DF-200-192403-624_9834.2" variable="g"/>
+            <mention concept="she" id="DF-200-192403-624_9834.26" variable="s"/>
+            <mention concept="girl" id="DF-200-192403-624_9834.4" variable="g"/>
+            <implicitrole argument="ARG2" id="DF-200-192403-624_9834.4" parentconcept="declare-02" parentvariable="d"/>
+         </identchain>
+         <identchain relationid="rel-2">
+            <mention concept="it" id="DF-200-192403-624_9834.3" variable="i2"/>
+            <mention concept="love-01" id="DF-200-192403-624_9834.2" variable="l"/>
+            <mention concept="love-01" id="DF-200-192403-624_9834.4" variable="l"/>	
+            <implicitrole argument="ARG1" id="DF-200-192403-624_9834.3" parentconcept="cope-01" parentvariable="c2"/>
+         </identchain>
+         <identchain relationid="rel-3">
+            <mention concept="i" id="DF-200-192403-624_9834.5" variable="i2"/>
+            <mention concept="you" id="DF-200-192403-624_9834.19" variable="y"/>
+            <mention concept="i" id="DF-200-192403-624_9834.7" variable="i"/>
+            <mention concept="you" id="DF-200-192403-624_9834.21" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.16" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.27" variable="y"/>
+            <mention concept="i" id="DF-200-192403-624_9834.12" variable="i"/>
+            <mention concept="i" id="DF-200-192403-624_9834.9" variable="i"/>
+            <mention concept="i" id="DF-200-192403-624_9834.10" variable="i"/>
+            <mention concept="you" id="DF-200-192403-624_9834.35" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.20" variable="y"/>
+            <mention concept="i" id="DF-200-192403-624_9834.6" variable="i"/>
+            <mention concept="you" id="DF-200-192403-624_9834.29" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.15" variable="y"/>
+            <mention concept="i" id="DF-200-192403-624_9834.11" variable="i"/>
+            <mention concept="you" id="DF-200-192403-624_9834.25" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.14" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.30" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.32" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.33" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.26" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.34" variable="y"/>
+            <mention concept="i" id="DF-200-192403-624_9834.3" variable="i"/>
+            <mention concept="you" id="DF-200-192403-624_9834.18" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.36" variable="y"/>
+            <mention concept="i" id="DF-200-192403-624_9834.8" variable="i"/>
+            <mention concept="you" id="DF-200-192403-624_9834.31" variable="y"/>
+            <mention concept="i" id="DF-200-192403-624_9834.1" variable="i"/>
+            <mention concept="you" id="DF-200-192403-624_9834.23" variable="y"/>
+            <mention concept="i" id="DF-200-192403-624_9834.4" variable="i"/>
+            <mention concept="i" id="DF-200-192403-624_9834.13" variable="i"/>
+            <mention concept="you" id="DF-200-192403-624_9834.24" variable="y"/>
+            <mention concept="you" id="DF-200-192403-624_9834.17" variable="y"/>
+            <mention concept="i" id="DF-200-192403-624_9834.2" variable="i"/>
+            <implicitrole argument="ARG0" id="DF-200-192403-624_9834.21" parentconcept="try-01" parentvariable="t"/>
+            <implicitrole argument="ARG0" id="DF-200-192403-624_9834.21" parentconcept="draw-01" parentvariable="d"/>
+            <implicitrole argument="ARG0" id="DF-200-192403-624_9834.6" parentconcept="move-01" parentvariable="m"/>
+            <implicitrole argument="ARG0" id="DF-200-192403-624_9834.21" parentconcept="play-11" parentvariable="p2"/>
+            <implicitrole argument="ARG0" id="DF-200-192403-624_9834.21" parentconcept="design-01" parentvariable="d2"/>
+            <implicitrole argument="ARG1" id="DF-200-192403-624_9834.7" parentconcept="move-01" parentvariable="m"/>
+            <implicitrole argument="ARG2" id="DF-200-192403-624_9834.31" parentconcept="request-confirmation-91" parentvariable="r"/>
+         </identchain>
+         <identchain relationid="rel-4">
+            <mention concept="i" id="DF-200-192403-624_9834.30" variable="i"/>
+            <mention concept="i" id="DF-200-192403-624_9834.34" variable="i"/>
+            <mention concept="i" id="DF-200-192403-624_9834.32" variable="i"/>
+            <implicitrole argument="ARG0" id="DF-200-192403-624_9834.31" parentconcept="request-confirmation-91" parentvariable="r"/>
+         </identchain>
+         <identchain relationid="rel-5">
+            <mention concept="move-01" id="DF-200-192403-624_9834.6" variable="m"/>
+            <mention concept="move-01" id="DF-200-192403-624_9834.7" variable="m"/>
+         </identchain>
+         <identchain relationid="rel-6">
+            <mention concept="university" id="DF-200-192403-624_9834.31" variable="u"/>
+            <mention concept="university" id="DF-200-192403-624_9834.10" variable="u"/>
+         </identchain>
+         <identchain relationid="rel-7">
+            <mention concept="goal" id="DF-200-192403-624_9834.23" variable="g"/>
+            <mention concept="goal" id="DF-200-192403-624_9834.16" variable="g"/>
+         </identchain>
+         <identchain relationid="rel-8">
+            <mention concept="go-02" id="DF-200-192403-624_9834.17" variable="g"/>
+            <mention concept="go-02" id="DF-200-192403-624_9834.27" variable="g2"/>
+         </identchain>
+         <identchain relationid="rel-9">
+            <mention concept="hobby" id="DF-200-192403-624_9834.27" variable="h"/>
+            <mention concept="activity-06" id="DF-200-192403-624_9834.14" variable="a"/>
+            <mention concept="activity-06" id="DF-200-192403-624_9834.23" variable="a2"/>
+         </identchain>
+         <identchain relationid="rel-10">
+            <mention concept="thing" id="DF-200-192403-624_9834.28" variable="t3"/>
+            <mention concept="or" id="DF-200-192403-624_9834.12" variable="o"/>
+            <mention concept="it" id="DF-200-192403-624_9834.28" variable="i"/>
+         </identchain>
+         <identchain relationid="rel-11">
+            <mention concept="thing" id="DF-200-192403-624_9834.29" variable="t2"/>
+            <mention concept="thing" id="DF-200-192403-624_9834.30" variable="t"/>
+         </identchain>
+         <identchain relationid="rel-12">
+            <mention concept="be-located-at-91" id="DF-200-192403-624_9834.31" variable="b"/>
+            <mention concept="that" id="DF-200-192403-624_9834.32" variable="t"/>
+         </identchain>
+         <identchain relationid="rel-13">
+            <mention concept="here" id="DF-200-192403-624_9834.34" variable="h2"/>
+            <mention concept="here" id="DF-200-192403-624_9834.34" variable="h"/>
+         </identchain>
+      </identity>
+      <singletons>
+         <identchain relationid="singleton-14">
+            <mention concept="and" id="DF-200-192403-624_9834.8" variable="a"/>
+         </identchain>
+         <identchain relationid="singleton-16">
+            <mention concept="example" id="DF-200-192403-624_9834.22" variable="e"/>
+         </identchain>
+         <identchain relationid="singleton-17">
+            <mention concept="read-01" id="DF-200-192403-624_9834.18" variable="r"/>
+         </identchain>
+         <identchain relationid="singleton-18">
+            <mention concept="platinum-00" id="DF-200-192403-624_9834.19" variable="p"/>
+         </identchain>
+         <identchain relationid="singleton-19">
+            <mention concept="and" id="DF-200-192403-624_9834.20" variable="a"/>
+         </identchain>
+         <identchain relationid="singleton-20">
+            <mention concept="learn-01" id="DF-200-192403-624_9834.21" variable="l"/>
+         </identchain>
+         <identchain relationid="singleton-23">
+            <mention concept="thing" id="DF-200-192403-624_9834.26" variable="t"/>
+         </identchain>
+         <identchain relationid="singleton-24">
+            <implicitrole argument="ARG2" id="DF-200-192403-624_9834.24" parentconcept="occupy-01" parentvariable="o"/>
+         </identchain>
+         <identchain relationid="singleton-25">
+            <mention concept="make-01" id="DF-200-192403-624_9834.25" variable="m"/>
+         </identchain>
+         <identchain relationid="singleton-27">
+            <mention concept="list" id="DF-200-192403-624_9834.32" variable="l2"/>
+         </identchain>
+         <identchain relationid="singleton-29">
+            <mention concept="person" id="DF-200-192403-624_9834.34" variable="p"/>
+         </identchain>
+         <identchain relationid="singleton-30">
+            <mention concept="i" id="DF-200-192403-624_9834.36" variable="i"/>
+         </identchain>
+      </singletons>
+      <bridging>
+         <setmember relationid="rel-15">
+            <superset id="rel-5"/>
+            <member id="singleton-14"/>
+         </setmember>
+         <setmember relationid="rel-21">
+            <superset id="singleton-16"/>
+            <member id="rel-8"/>
+            <member id="singleton-17"/>
+            <member id="singleton-18"/>
+            <member id="singleton-19"/>
+            <member id="singleton-20"/>
+         </setmember>
+         <setmember relationid="rel-22">
+            <superset id="rel-7"/>
+            <member id="singleton-16"/>
+         </setmember>
+         <setmember relationid="rel-26">
+            <superset id="singleton-23"/>
+            <member id="rel-9"/>
+            <member id="singleton-24"/>
+            <member id="singleton-25"/>
+         </setmember>
+         <setmember relationid="rel-28">
+            <superset id="rel-11"/>
+            <member id="rel-12"/>
+            <member id="singleton-27"/>
+         </setmember>
+         <setmember relationid="rel-31">
+            <superset id="singleton-29"/>
+            <member id="rel-4"/>
+            <member id="singleton-30"/>
+         </setmember>
+      </bridging>
+   </relations>
+</document>

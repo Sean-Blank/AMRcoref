@@ -1,0 +1,667 @@
+
+# ::id DF-200-192403-624_9834.1 ::speaker unk ::order 1 ::post p1 ::doc_type dfa
+# ::snt I'm very close to breaking point,
+# ::save-date Mon Nov 20, 2017 ::file DF-200-192403-624_9834_1.txt
+(c / close-10
+      :ARG1 (i / i)
+      :ARG2 (p / point
+            :mod (b / break-01
+                  :ARG1 i))
+      :degree (v / very))
+
+# ::id DF-200-192403-624_9834.2 ::speaker unk ::order 2 ::post p1 ::doc_type dfa
+# ::snt i've loved the same girl for about six years.
+# ::save-date Sun Feb 23, 2014 ::file DF-200-192403-624_9834_2.txt
+(l / love-01
+      :ARG0 (i / i)
+      :ARG1 (g / girl
+            :ARG1-of (s / same-01))
+      :duration (a / about
+            :op1 (t / temporal-quantity
+                  :quant 6
+                  :unit (y / year))))
+
+# ::id DF-200-192403-624_9834.3 ::speaker unk ::order 3 ::post p1 ::doc_type dfa
+# ::snt I've kept it to myself forever, then told a friend a few months ago cause I just couldn't cope anymore.
+# ::save-date Tue Apr 29, 2014 ::file DF-200-192403-624_9834_3.txt
+(a2 / and
+      :op1 (k / keep-01
+            :ARG0 (i / i)
+            :ARG1 (i2 / it)
+            :duration (f2 / forever))
+      :op2 (t2 / tell-01
+            :ARG0 i
+            :ARG1 i2
+            :ARG1-of (c / cause-01
+                  :ARG0 (p / possible-01
+                        :ARG1 (c2 / cope-01
+                              :ARG0 i
+                              :time (a / anymore))
+                        :mod (j / just)
+                        :polarity -))
+            :ARG2 (p2 / person
+                  :ARG0-of (h / have-rel-role-91
+                        :ARG1 i
+                        :ARG2 (f3 / friend)))
+            :time (b / before
+                  :op1 (n / now)
+                  :quant (f / few
+                        :op1 (t / temporal-quantity
+                              :quant 1
+                              :unit (m / month))))
+            :time (t3 / then)))
+
+# ::id DF-200-192403-624_9834.4 ::speaker unk ::order 4 ::post p1 ::doc_type dfa
+# ::snt Then a week 1/2 ago, I declared my love for the girl in a text when I was drunk.
+# ::save-date Sun Apr 27, 2014 ::file DF-200-192403-624_9834_4.txt
+(d / declare-02
+      :ARG0 (i / i)
+      :ARG1 (l / love-01
+            :ARG0 i
+            :ARG1 (g / girl))
+      :medium (t3 / text)
+      :time (t2 / then)
+      :time (b / before
+            :op1 (n / now)
+            :quant (t / temporal-quantity
+                  :quant 1.5
+                  :unit (w / week)))
+      :time (d2 / drunk
+            :domain i))
+
+# ::id DF-200-192403-624_9834.5 ::speaker unk ::order 5 ::post p1 ::doc_type dfa
+# ::snt She eventually replied a couple of days later being unbelievably kind about it, which has really just made me fall even deeper (if this is possible).
+# ::save-date Tue Dec 19, 2017 ::file DF-200-192403-624_9834_5.txt
+(a / and
+      :op1 (r / reply-01
+            :ARG0 (s / she)
+            :time (e / eventual)
+            :time (a2 / after
+                  :quant (c / couple
+                        :op1 (t / temporal-quantity
+                              :quant 1
+                              :unit (d / day)))))
+      :op2 (k / kind-01
+            :ARG0 s
+            :ARG0-of (m2 / make-02
+                  :ARG1 (f / fall-01
+                        :ARG1 (i2 / i)
+                        :ARG4 (d2 / deep-02
+                              :ARG2-of (h / have-degree-91
+                                    :ARG1 f
+                                    :ARG3 (m3 / more))
+                              :condition (p2 / possible-01
+                                    :ARG1 f)
+                              :mod (e2 / even)))
+                  :ARG1-of (r2 / real-04)
+                  :mod (j / just))
+            :ARG1-of (b / believe-01
+                  :ARG1-of (p / possible-01
+                        :polarity -))
+            :topic (i / it)))
+
+# ::id DF-200-192403-624_9834.6 ::speaker unk ::order 6 ::post p1 ::doc_type dfa
+# ::snt I told her she wouldn't hear from me for a while, you know, so I can attempt to move on.
+# ::save-date Mon Mar 23, 2015 ::file DF-200-192403-624_9834_6.txt
+(t / tell-01
+      :ARG0 (i / i)
+      :ARG1 (h / hear-01
+            :ARG0 (s / she)
+            :ARG2 i
+            :duration (w / while)
+            :polarity -)
+      :ARG2 s
+      :purpose (p / possible-01
+            :ARG1 (a2 / attempt-01
+                  :ARG0 i
+                  :ARG1 (m / move-01
+                        :ARG1 i))))
+
+# ::id DF-200-192403-624_9834.7 ::speaker unk ::order 7 ::post p1 ::doc_type dfa
+# ::snt So now I'm at the start of the move on phase, but I'm just stuck.
+# ::save-date Sun Apr 27, 2014 ::file DF-200-192403-624_9834_7.txt
+(i2 / infer-01
+      :ARG0 (i / i
+            :ARG0-of (s3 / start-01
+                  :ARG1 (p2 / phase
+                        :mod (m / move-01
+                              :ARG0 i))
+                  :time (n / now)))
+      :ARG1 (c2 / contrast-01
+            :ARG1 i
+            :ARG2 (s2 / stick-01
+                  :ARG1 i
+                  :mod (j / just))))
+
+# ::id DF-200-192403-624_9834.8 ::speaker unk ::order 8 ::post p1 ::doc_type dfa
+# ::snt I cut off most of my hair and I've started exercising and changing my diet to try to alter the chemicals in my body to make me feel better that way, but doesn't seem to be working, i'm still miserable.
+# ::save-date Thu Dec 21, 2017 ::file DF-200-192403-624_9834_8.txt
+(h4 / have-concession-91
+      :ARG1 (a4 / and
+            :op1 (s2 / seem-01
+                  :ARG1 (w / work-09
+                        :ARG1 (a / and
+                              :op1 (c / cut-off-04
+                                    :ARG0 (i / i)
+                                    :ARG1 (h / hair
+                                          :ARG1-of (h2 / have-quant-91
+                                                :ARG3 (m / most))
+                                          :part-of i))
+                              :op2 (s / start-01
+                                    :ARG0 i
+                                    :ARG1 (a2 / and
+                                          :op1 (e / exercise-02
+                                                :ARG0 i)
+                                          :op2 (c2 / change-01
+                                                :ARG0 i
+                                                :ARG1 (d / diet
+                                                      :poss i))))
+                              :purpose (t / try-01
+                                    :ARG0 i
+                                    :ARG1 (a3 / alter-01
+                                          :ARG0 i
+                                          :ARG1 (c3 / chemical
+                                                :location (b / body
+                                                      :poss i)))
+                                    :purpose (m2 / make-02
+                                          :ARG0 i
+                                          :ARG1 (f / feel-01
+                                                :ARG0 i
+                                                :ARG1-of (h3 / have-degree-91
+                                                      :ARG2 (g / good-02
+                                                            :ARG1 f)
+                                                      :ARG3 (m3 / more))
+                                                :manner a3)))))
+                  :polarity -)
+            :op2 (m4 / miserable
+                  :domain i
+                  :mod (s3 / still)))
+      :ARG2 a)
+
+# ::id DF-200-192403-624_9834.9 ::speaker unk ::order 9 ::post p1 ::doc_type dfa
+# ::snt A song about love will come on my itunes (pretty much every song in the world) or a song that reminds me of her, and i'll just break down.
+# ::save-date Sun Apr 27, 2014 ::file DF-200-192403-624_9834_9.txt
+(h / have-condition-91
+      :ARG1 (b / break-down-11
+            :ARG0 (i / i)
+            :manner (j / just))
+      :ARG2 (c / come-on-08
+            :ARG1 (o / or
+                  :op1 (s / song
+                        :domain (s4 / song
+                              :location (w / world)
+                              :mod (e / every
+                                    :degree (p / pretty-much)))
+                        :topic (l / love))
+                  :op2 (s2 / song
+                        :ARG0-of (r / remind-01
+                              :ARG1 (s3 / she)
+                              :ARG2 i)))
+            :medium (p2 / product
+                  :name (n3 / name
+                        :op1 "iTunes")
+                  :poss i
+                  :wiki "ITunes")))
+
+# ::id DF-200-192403-624_9834.10 ::speaker unk ::order 10 ::post p1 ::doc_type dfa
+# ::snt I feel like just dropping out of uni and getting on a flight to australia and never coming back.
+# ::save-date Mon Jul 13, 2015 ::file DF-200-192403-624_9834_10.txt
+(f2 / feel-06
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (d / drop-out-04
+                  :ARG0 i
+                  :ARG1 (u / university))
+            :op2 (g / get-01
+                  :ARG0 i
+                  :ARG1 (f / fly-01
+                        :destination (c / country
+                              :name (n / name
+                                    :op1 "Australia")
+                              :wiki "Australia")))
+            :op3 (c2 / come-01
+                  :ARG1 i
+                  :direction (b / back)
+                  :polarity -
+                  :time (e / ever)))
+      :mod (j / just))
+
+# ::id DF-200-192403-624_9834.11 ::speaker unk ::order 11 ::post p1 ::doc_type dfa
+# ::snt During a really low point last week I cut myself (which i hadn't done in years) just because i had so much pent-up emotion, i had to let it out somehow.
+# ::save-date Mon Nov 20, 2017 ::file DF-200-192403-624_9834_11.txt
+(c2 / cause-01
+      :ARG0 (a / and
+            :op1 (p2 / pen-up-03
+                  :ARG0 (i / i)
+                  :ARG1 (e / emotion
+                        :ARG1-of (h / have-quant-91
+                              :ARG2 (m / much)
+                              :ARG3 (s2 / so))))
+            :op2 (o / obligate-01
+                  :ARG2 (l3 / let-01
+                        :ARG0 i
+                        :ARG1 (o2 / out
+                              :direction-of e)
+                        :manner (s3 / somehow))))
+      :ARG1 (c / cut-01
+            :ARG0 i
+            :ARG1 i
+            :ARG1-of (d / do-02
+                  :ARG0 i
+                  :duration (m2 / multiple
+                        :op1 (t / temporal-quantity
+                              :quant 1
+                              :unit (y / year)))
+                  :polarity -)
+            :time (w / week
+                  :mod (l / last))
+            :time (p / point
+                  :degree-of (l2 / low-02
+                        :ARG1 i
+                        :degree (r / really))))
+      :mod (j / just))
+
+# ::id DF-200-192403-624_9834.12 ::speaker unk ::order 12 ::post p1 ::doc_type dfa
+# ::snt I really don't know what to do or how to help myself be happy again.
+# ::save-date Thu Jan 21, 2016 ::file DF-200-192403-624_9834_12.txt
+(k / know-01
+      :ARG0 (i / i)
+      :ARG1 (o / or
+            :op1 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 i))
+            :op2 (t2 / thing
+                  :manner-of (h / help-01
+                        :ARG0 i
+                        :ARG1 (h2 / happy-01
+                              :ARG1 i
+                              :mod (a3 / again))
+                        :ARG2 i)))
+      :degree (r / really)
+      :polarity -)
+
+# ::id DF-200-192403-624_9834.13 ::speaker unk ::order 13 ::post p1 ::doc_type dfa
+# ::snt People say time is a healer but I don't know if I'll be able to hold out that long!
+# ::save-date Sat Nov 18, 2017 ::file DF-200-192403-624_9834_13.txt
+(k / know-01
+      :ARG0 (i / i)
+      :ARG1 (t3 / truth-value
+            :polarity-of (p2 / possible-01
+                  :ARG1 (h2 / hold-out-09
+                        :ARG1 i
+                        :ARG1-of (l / long-03
+                              :degree (t2 / that)))))
+      :concession (s / say-01
+            :ARG0 (p / person)
+            :ARG1 (h / heal-01
+                  :ARG0 (t / time)))
+      :polarity -)
+
+# ::id DF-200-192403-624_9834.14 ::speaker unk ::order 14 ::post p2 ::doc_type dfa
+# ::snt Find activities to occupy your time.
+# ::save-date Mon Jul 6, 2015 ::file DF-200-192403-624_9834_14.txt
+(f / find-01
+      :ARG0 (y / you)
+      :ARG1 (a / activity-06
+            :ARG0-of (o / occupy-01
+                  :ARG1 (t / time
+                        :poss y)))
+      :mode imperative)
+
+# ::id DF-200-192403-624_9834.15 ::speaker unk ::order 15 ::post p2 ::doc_type dfa
+# ::snt There has to be something you really enjoy doing?
+# ::save-date Fri Jan 8, 2016 ::file DF-200-192403-624_9834_15.txt
+(o / obligate-01
+      :ARG1-of (r2 / request-confirmation-91)
+      :ARG2 (t / thing
+            :ARG1-of (d / do-02
+                  :ARG0 (y / you)
+                  :ARG1-of (e / enjoy-01
+                        :ARG0 y
+                        :degree (r / really)))))
+
+# ::id DF-200-192403-624_9834.16 ::speaker unk ::order 16 ::post p2 ::doc_type dfa
+# ::snt Set some goals for yourself. i.e.:
+# ::save-date Sun Apr 27, 2014 ::file DF-200-192403-624_9834_16.txt
+(s / set-02
+      :ARG0 (y / you)
+      :ARG1 (g / goal
+            :ARG1-of (e / exemplify-01)
+            :beneficiary y
+            :quant (s2 / some))
+      :mode imperative)
+
+# ::id DF-200-192403-624_9834.17 ::speaker unk ::order 17 ::post p2 ::doc_type dfa
+# ::snt - Go to the gym 5 times a week for an hour a day.
+# ::save-date Thu Jul 9, 2015 ::file DF-200-192403-624_9834_17.txt
+(g / go-02
+      :ARG0 (y / you)
+      :ARG4 (g2 / gym)
+      :duration (t2 / temporal-quantity
+            :quant 1
+            :unit (h / hour))
+      :frequency (r / rate-entity-91
+            :ARG1 5
+            :ARG2 (t / temporal-quantity
+                  :quant 1
+                  :unit (w / week)))
+      :mode imperative)
+
+# ::id DF-200-192403-624_9834.18 ::speaker unk ::order 18 ::post p2 ::doc_type dfa
+# ::snt - Read x books in a month.
+# ::save-date Fri Oct 23, 2015 ::file DF-200-192403-624_9834_18.txt
+(r / read-01
+      :ARG0 (y / you)
+      :ARG1 (b / book
+            :quant (v / variable
+                  :name (n / name
+                        :op1 "x")
+                  :wiki -))
+      :duration (t / temporal-quantity
+            :quant 1
+            :unit (m / month))
+      :mode imperative)
+
+# ::id DF-200-192403-624_9834.19 ::speaker unk ::order 19 ::post p2 ::doc_type dfa
+# ::snt - Platinum all the God of War games.
+# ::save-date Sun Apr 27, 2014 ::file DF-200-192403-624_9834_19.txt
+(p / platinum-00
+      :ARG0 (y / you)
+      :ARG1 (g / game
+            :mod (a2 / all)
+            :name (n / name
+                  :op1 "God"
+                  :op2 "of"
+                  :op3 "War")
+            :wiki "God_of_War_(2005_video_game)")
+      :mode imperative)
+
+# ::id DF-200-192403-624_9834.20 ::speaker unk ::order 20 ::post p2 ::doc_type dfa
+# ::snt - Meet one new person a day and engage in a meaningful conversation.
+# ::save-date Thu Feb 4, 2016 ::file DF-200-192403-624_9834_20.txt
+(a / and
+      :op1 (m / meet-02
+            :ARG0 (y / you)
+            :ARG1 (p / person
+                  :ARG1-of (n / new-02)
+                  :quant 1)
+            :frequency (r / rate-entity-91
+                  :ARG2 (t / temporal-quantity
+                        :quant 1
+                        :unit (d / day)))
+            :mode imperative)
+      :op2 (e / engage-01
+            :ARG0 y
+            :ARG2 (c / converse-01
+                  :ARG0 y
+                  :mod (m2 / meaningful))
+            :mode imperative))
+
+# ::id DF-200-192403-624_9834.21 ::speaker unk ::order 21 ::post p2 ::doc_type dfa
+# ::snt - Learn a new skill (could be playing an instrument, drawing, trying a new sport, web design, etc.).
+# ::save-date Thu Feb 4, 2016 ::file DF-200-192403-624_9834_21.txt
+(l / learn-01
+      :ARG0 (y / you)
+      :ARG1 (s / skill
+            :ARG1-of (n / new-02)
+            :ARG1-of (e2 / exemplify-01
+                  :ARG0 (o / or
+                        :op1 (p2 / play-11
+                              :ARG2 (i / instrument))
+                        :op2 (d / draw-01)
+                        :op3 (t / try-01
+                              :ARG1 (s2 / sport
+                                    :ARG1-of (n3 / new-02)))
+                        :op4 (d2 / design-01
+                              :ARG1 (w / web))
+                        :op5 (e / et-cetera))
+                  :ARG1-of (p / possible-01)))
+      :mode imperative)
+
+# ::id DF-200-192403-624_9834.22 ::speaker unk ::order 22 ::post p2 ::doc_type dfa
+# ::snt Just some examples.
+# ::save-date Sun Mar 23, 2014 ::file DF-200-192403-624_9834_22.txt
+(e / example
+      :mod (j / just)
+      :quant (s / some))
+
+# ::id DF-200-192403-624_9834.23 ::speaker unk ::order 23 ::post p2 ::doc_type dfa
+# ::snt Find an activity you like, set some goals, stick to them.
+# ::save-date Mon Jul 6, 2015 ::file DF-200-192403-624_9834_23.txt
+(a / and
+      :op1 (f / find-01
+            :ARG0 (y / you)
+            :ARG1 (a2 / activity-06
+                  :ARG1-of (l / like-01
+                        :ARG0 y))
+            :mode imperative)
+      :op2 (s / set-02
+            :ARG0 y
+            :ARG1 (g / goal
+                  :quant (s3 / some))
+            :mode imperative)
+      :op3 (s2 / stick-01
+            :ARG0 y
+            :ARG2 g
+            :mode imperative))
+
+# ::id DF-200-192403-624_9834.24 ::speaker unk ::order 24 ::post p2 ::doc_type dfa
+# ::snt The key is to occupy yourself and meet new people.
+# ::save-date Thu Feb 4, 2016 ::file DF-200-192403-624_9834_24.txt
+(a / and
+      :ARG1-of (k / key-02)
+      :op1 (o / occupy-01
+            :ARG0 (y / you)
+            :ARG1 y)
+      :op2 (m / meet-02
+            :ARG0 y
+            :ARG1 (p / person
+                  :ARG1-of (n / new-02))))
+
+# ::id DF-200-192403-624_9834.25 ::speaker unk ::order 25 ::post p4 ::doc_type dfa
+# ::snt Maybe make a new playlist on itunes for starters, with happy music. 'Don't stop' by Fleetwood mac, etc.
+# ::save-date Thu Feb 4, 2016 ::file DF-200-192403-624_9834_25.txt
+(p / possible-01
+      :ARG1 (m / make-01
+            :ARG0 (y / you)
+            :ARG1 (p2 / playlist
+                  :ARG1-of (n / new-01)
+                  :consist-of (m2 / music
+                        :ARG1-of (h / happy-01)
+                        :example (a / and
+                              :op1 (m4 / music
+                                    :ARG1-of (a2 / author-01
+                                          :ARG0 (o / organization
+                                                :name (n3 / name
+                                                      :op1 "Fleetwood"
+                                                      :op2 "Mac")
+                                                :wiki "Fleetwood_Mac"))
+                                    :name (n2 / name
+                                          :op1 "Don't"
+                                          :op2 "Stop")
+                                    :wiki "Don't_Stop_(Fleetwood_Mac_song)")
+                              :op2 (e / et-cetera))))
+            :ARG2-of (s2 / start-01
+                  :ARG0 y)
+            :medium (p3 / product
+                  :name (n4 / name
+                        :op1 "iTunes")
+                  :wiki "ITunes")))
+
+# ::id DF-200-192403-624_9834.26 ::speaker unk ::order 26 ::post p4 ::doc_type dfa
+# ::snt Things that don't make you think of her.
+# ::save-date Sun Mar 23, 2014 ::file DF-200-192403-624_9834_26.txt
+(t / thing
+      :ARG0-of (m / make-02
+            :ARG1 (t2 / think-01
+                  :ARG0 (y / you)
+                  :ARG1 (s / she))
+            :polarity -))
+
+# ::id DF-200-192403-624_9834.27 ::speaker unk ::order 27 ::post p4 ::doc_type dfa
+# ::snt Try, like /\ /\ suggested, getting a hobby, going to the gym etc.
+# ::save-date Sat Apr 19, 2014 ::file DF-200-192403-624_9834_27.txt
+(t / try-01
+      :ARG0 (y / you)
+      :ARG1 (o / or
+            :ARG1-of (s / suggest-01
+                  :ARG0 (t2 / thing))
+            :op1 (g / get-01
+                  :ARG0 y
+                  :ARG1 (h / hobby))
+            :op2 (g2 / go-02
+                  :ARG0 y
+                  :ARG4 (g3 / gym))
+            :op3 (e / et-cetera))
+      :mode imperative)
+
+# ::id DF-200-192403-624_9834.28 ::speaker unk ::order 28 ::post p4 ::doc_type dfa
+# ::snt It won't be easy, but it's just one of these things in life.
+# ::save-date Sat Apr 19, 2014 ::file DF-200-192403-624_9834_28.txt
+(c / contrast-01
+      :ARG1 (e / easy-05
+            :ARG1 (i / it)
+            :polarity -)
+      :ARG2 (t3 / thing
+            :ARG1-of (i2 / include-91
+                  :ARG2 (t / thing
+                        :mod (t2 / this)
+                        :part-of (l / life)))
+            :mod (j / just)))
+
+# ::id DF-200-192403-624_9834.29 ::speaker unk ::order 29 ::post p4 ::doc_type dfa
+# ::snt Try counting all the things that you do have in life,
+# ::save-date Sat Apr 19, 2014 ::file DF-200-192403-624_9834_29.txt
+(t / try-01
+      :ARG0 (y / you)
+      :ARG1 (c / count-01
+            :ARG1 (t2 / thing
+                  :ARG1-of (h / have-03
+                        :ARG0 y
+                        :time (l / life))
+                  :mod (a / all)))
+      :mode imperative)
+
+# ::id DF-200-192403-624_9834.30 ::speaker unk ::order 30 ::post p4 ::doc_type dfa
+# ::snt sure you might not have her, but I'm sure you have a number of other things.
+# ::save-date Thu Jul 9, 2015 ::file DF-200-192403-624_9834_30.txt
+(s3 / sure-02
+      :ARG0 (i / i)
+      :ARG1 (h2 / have-03
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :mod (o / other)
+                  :quant (n / number)))
+      :concession (p / possible-01
+            :ARG1 (h / have-03
+                  :ARG0 y
+                  :ARG1 (s / she)
+                  :polarity -)
+            :mod (s2 / sure)))
+
+# ::id DF-200-192403-624_9834.31 ::speaker unk ::order 31 ::post p4 ::doc_type dfa
+# ::snt You're in uni arn't you??
+# ::save-date Fri Jan 8, 2016 ::file DF-200-192403-624_9834_31.txt
+(b / be-located-at-91
+      :ARG1 (y / you)
+      :ARG1-of (r / request-confirmation-91)
+      :ARG2 (u / university))
+
+# ::id DF-200-192403-624_9834.32 ::speaker unk ::order 32 ::post p4 ::doc_type dfa
+# ::snt Well, a large percentage of the population don't have that, and I'm sure you can finish the list.
+# ::save-date Thu Jul 9, 2015 ::file DF-200-192403-624_9834_32.txt
+(a / and
+      :mod (w / well)
+      :op1 (h / have-03
+            :ARG0 (p / percentage
+                  :mod (l / large)
+                  :part-of (p2 / population))
+            :ARG1 (t / that)
+            :polarity -)
+      :op2 (s / sure-02
+            :ARG0 (i / i)
+            :ARG1 (p3 / possible-01
+                  :ARG1 (f / finish-01
+                        :ARG0 (y / you)
+                        :ARG1 (l2 / list)))))
+
+# ::id DF-200-192403-624_9834.33 ::speaker unk ::order 33 ::post p4 ::doc_type dfa
+# ::snt It might seem impossible at the moment, but pick yourself up and live life with as much energy as you can.
+# ::save-date Sun Mar 5, 2017 ::file DF-200-192403-624_9834_33.txt
+(h / have-concession-91
+      :ARG1 (a / and
+            :op1 (p3 / pick-up-04
+                  :ARG0 (y / you)
+                  :ARG1 y
+                  :mode imperative)
+            :op2 (l / live-01
+                  :ARG0 y
+                  :ARG1 (l2 / life)
+                  :manner (e / energy
+                        :ARG1-of (h2 / have-quant-91
+                              :ARG2 (m3 / much)
+                              :ARG3 (e2 / equal)
+                              :ARG4 (c / capable-01
+                                    :ARG1 y)))
+                  :mode imperative))
+      :ARG2 (s / seem-01
+            :ARG1 (p2 / possible-01
+                  :ARG1 a
+                  :polarity -)
+            :ARG1-of (p / possible-01)
+            :time (m / moment)))
+
+# ::id DF-200-192403-624_9834.34 ::speaker unk ::order 34 ::post p4 ::doc_type dfa
+# ::snt Talking to people on here is always a place to start, have made some wonderful friends on here
+# ::save-date Sat Jul 18, 2015 ::file DF-200-192403-624_9834_34.txt
+(m2 / multi-sentence
+      :snt1 (p2 / place
+            :domain (t / talk-01
+                  :ARG0 (y / you)
+                  :ARG2 (p / person)
+                  :location (h2 / here))
+            :location-of (s2 / start-01
+                  :ARG0 y)
+            :time (a2 / always))
+      :snt2 (b / befriend-01
+            :ARG0 (i / i)
+            :ARG1 (p3 / person
+                  :ARG1-of (w / wonderful-03)
+                  :quant (s / some))
+            :location (h / here)))
+
+# ::id DF-200-192403-624_9834.35 ::speaker unk ::order 35 ::post p5 ::doc_type dfa
+# ::snt Turn to religion.
+# ::save-date Sun Apr 27, 2014 ::file DF-200-192403-624_9834_35.txt
+(t / turn-14
+      :ARG0 (y / you)
+      :ARG1 (r / religion)
+      :mode imperative)
+
+# ::id DF-200-192403-624_9834.36 ::speaker unk ::order 36 ::post p5 ::doc_type dfa
+# ::snt When I was in your exact same position I turned to religion and Islam has worked very well boosting up my self-content.
+# ::save-date Tue Jun 9, 2015 ::file DF-200-192403-624_9834_36.txt
+(a / and
+      :op1 (t / turn-14
+            :ARG0 (i / i)
+            :ARG1 (r / religion)
+            :time (b2 / be-located-at-91
+                  :ARG1 i
+                  :ARG2 (p / position
+                        :ARG1-of (s / same-01
+                              :ARG2 (p2 / position
+                                    :location-of (y / you))
+                              :mod (e / exact)))))
+      :op2 (w / work-09
+            :ARG0-of (b / boost-01
+                  :ARG1 (c / content-01
+                        :ARG1 i
+                        :ARG2 i))
+            :ARG1 (r2 / religious-group
+                  :name (n2 / name
+                        :op1 "Islam")
+                  :wiki "Islam")
+            :ARG2 i
+            :mod (w2 / well
+                  :degree (v / very))))
+

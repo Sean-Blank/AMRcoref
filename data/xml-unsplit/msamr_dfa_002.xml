@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE msamr SYSTEM "msamr.dtd">
+
+<document>
+   <sentences annotator="anno1" docid="bolt-eng-DF-199-192784-5874261" end="" site="UColorado" sourcetype="BOLT" start="" threadid="bolt-eng-DF-199-192784-5874261">
+      <amr id="DF-199-192784-587_4261.1" order="1" post="p1" speaker="unk" su="1"/>
+      <amr id="DF-199-192784-587_4261.2" order="2" post="p1" speaker="unk" su="2"/>
+      <amr id="DF-199-192784-587_4261.3" order="3" post="p1" speaker="unk" su="3"/>
+      <amr id="DF-199-192784-587_4261.4" order="4" post="p1" speaker="unk" su="4"/>
+      <amr id="DF-199-192784-587_4261.5" order="5" post="p2" speaker="unk" su="1"/>
+      <amr id="DF-199-192784-587_4261.6" order="6" post="p2" speaker="unk" su="2"/>
+      <amr id="DF-199-192784-587_4261.7" order="7" post="p2" speaker="unk" su="3"/>
+      <amr id="DF-199-192784-587_4261.8" order="8" post="p2" speaker="unk" su="4"/>
+      <amr id="DF-199-192784-587_4261.9" order="9" post="p2" speaker="unk" su="5"/>
+      <amr id="DF-199-192784-587_4261.10" order="10" post="p2" speaker="unk" su="6"/>
+      <amr id="DF-199-192784-587_4261.11" order="11" post="p2" speaker="unk" su="7"/>
+      <amr id="DF-199-192784-587_4261.12" order="12" post="p2" speaker="unk" su="8"/>
+   </sentences>
+   <relations>
+      <identity>
+         <identchain relationid="rel-0">
+            <mention concept="person" id="DF-199-192784-587_4261.5" variable="p"/>
+            <mention concept="i" id="DF-199-192784-587_4261.2" variable="i"/>
+            <mention concept="i" id="DF-199-192784-587_4261.4" variable="i"/>
+         </identchain>
+         <identchain relationid="rel-1">
+            <mention concept="recommend-01" id="DF-199-192784-587_4261.4" variable="r"/>
+            <mention concept="that" id="DF-199-192784-587_4261.2" variable="t"/>
+            <mention concept="recommend-01" id="DF-199-192784-587_4261.1" variable="r"/>
+         </identchain>
+         <identchain relationid="rel-2">
+            <mention concept="slave" id="DF-199-192784-587_4261.4" variable="s"/>
+            <mention concept="inmate" id="DF-199-192784-587_4261.1" variable="i"/>
+            <implicitrole argument="ARG1" id="DF-199-192784-587_4261.6" parentconcept="incarcerate-01" parentvariable="i2"/>
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.6" parentconcept="work-01" parentvariable="w2"/>
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.8" parentconcept="work-01" parentvariable="w"/>
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.8" parentconcept="crime-02" parentvariable="c"/>
+            <implicitrole argument="ARG1" id="DF-199-192784-587_4261.8" parentconcept="punish-01" parentvariable="p"/>
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.6" parentconcept="labor-01" parentvariable="l"/>
+            <implicitrole argument="ARG2" id="DF-199-192784-587_4261.6" parentconcept="pay-01" parentvariable="p4"/>
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.6" parentconcept="voluntary-02" parentvariable="v"/>
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.11" parentconcept="labor-01" parentvariable="l"/>
+         </identchain>
+         <identchain relationid="rel-3">
+            <mention concept="turn-14" id="DF-199-192784-587_4261.4" variable="t2"/>
+            <mention concept="it" id="DF-199-192784-587_4261.5" variable="i"/>
+         </identchain>
+         <identchain relationid="rel-4">
+            <mention concept="voluntary-02" id="DF-199-192784-587_4261.7" variable="v"/>
+            <mention concept="voluntary-02" id="DF-199-192784-587_4261.6" variable="v"/>
+         </identchain>
+         <identchain relationid="rel-5">
+            <mention concept="country" id="DF-199-192784-587_4261.5" variable="c"/>
+            <mention concept="nation" id="DF-199-192784-587_4261.10" variable="n"/>
+         </identchain>
+         <identchain relationid="rel-6">
+            <mention concept="we" id="DF-199-192784-587_4261.1" variable="w"/>
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.2" parentconcept="question-01" parentvariable="q"/>
+         </identchain>
+         <identchain relationid="rel-7">
+            <mention concept="you" id="DF-199-192784-587_4261.1" variable="y"/>
+            <implicitrole argument="ARG2" id="DF-199-192784-587_4261.2" parentconcept="question-01" parentvariable="q"/>
+         </identchain>
+         <identchain relationid="rel-8">
+            <mention concept="government-organization" id="DF-199-192784-587_4261.4" variable="g"/>
+            <mention concept="government-organization" id="DF-199-192784-587_4261.12" variable="g"/>
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.12" parentconcept="reward-01" parentvariable="r"/>
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.12" parentconcept="tax-01" parentvariable="t2"/>
+         </identchain>
+         <identchain relationid="rel-9">
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.8" parentconcept="question-01" parentvariable="q"/>
+            <implicitrole argument="ARG0" id="DF-199-192784-587_4261.5" parentconcept="say-01" parentvariable="s"/>
+         </identchain>
+         <identchain relationid="rel-10">
+            <mention concept="amr-unknown" id="DF-199-192784-587_4261.8" variable="a"/>
+            <mention concept="it" id="DF-199-192784-587_4261.10" variable="i"/>
+         </identchain>
+         <identchain relationid="rel-11">
+            <mention concept="populace" id="DF-199-192784-587_4261.12" variable="p"/>
+            <implicitrole argument="ARG1" id="DF-199-192784-587_4261.12" parentconcept="reward-01" parentvariable="r"/>
+            <implicitrole argument="ARG2" id="DF-199-192784-587_4261.12" parentconcept="tax-01" parentvariable="t2"/>
+         </identchain>
+      </identity>
+      <singletons>
+         <identchain relationid="singleton-12">
+            <mention concept="government-organization" id="DF-199-192784-587_4261.1" variable="g"/>
+         </identchain>
+         <identchain relationid="singleton-14">
+            <mention concept="labor-01" id="DF-199-192784-587_4261.1" variable="l2"/>
+         </identchain>
+         <identchain relationid="singleton-15">
+            <mention concept="and" id="DF-199-192784-587_4261.6" variable="a"/>
+         </identchain>
+         <identchain relationid="singleton-16">
+            <mention concept="work-01" id="DF-199-192784-587_4261.6" variable="w2"/>
+         </identchain>
+         <identchain relationid="singleton-17">
+            <mention concept="work-01" id="DF-199-192784-587_4261.9" variable="w"/>
+         </identchain>
+         <identchain relationid="singleton-19">
+            <mention concept="get-01" id="DF-199-192784-587_4261.6" variable="g2"/>
+         </identchain>
+      </singletons>
+      <bridging>
+         <setmember relationid="rel-13">
+            <superset id="rel-8"/>
+            <member id="singleton-12"/>
+         </setmember>
+         <setmember relationid="rel-18">
+            <superset id="singleton-14"/>
+            <member id="singleton-15"/>
+            <member id="singleton-16"/>
+            <member id="singleton-17"/>
+         </setmember>
+         <setmember relationid="rel-20">
+            <superset id="rel-3"/>
+            <member id="singleton-15"/>
+            <member id="singleton-19"/>
+         </setmember>
+      </bridging>
+   </relations>
+</document>

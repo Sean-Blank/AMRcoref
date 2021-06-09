@@ -1,0 +1,338 @@
+
+# ::id DF-200-192453-580_7549.1 ::speaker unk ::order 1 ::post p1 ::doc_type dfa
+# ::snt I was on a tour in Ireland last week when the operator on the bus asked where everyone was from.
+# ::save-date Tue Nov 28, 2017 ::file DF-200-192453-580_7549_1.txt
+(t / tour-01
+      :ARG0 (i / i)
+      :ARG1 (c / country
+            :name (n / name
+                  :op1 "Ireland")
+            :wiki "Republic_of_Ireland")
+      :time (w / week
+            :mod (l / last))
+      :time (a / ask-01
+            :ARG0 (p / person
+                  :ARG0-of (o / operate-01
+                        :ARG1 (b2 / bus)))
+            :ARG1 (l2 / location
+                  :source-of (e / everyone))))
+
+# ::id DF-200-192453-580_7549.2 ::speaker unk ::order 2 ::post p1 ::doc_type dfa
+# ::snt As it happened I was the only British person on the bus, and when asked I said that I was from 'England'.
+# ::save-date Wed Apr 30, 2014 ::file DF-200-192453-580_7549_2.txt
+(a3 / and
+      :op1 (p / person
+            :domain (i / i)
+            :mod (c / country
+                  :name (n / name
+                        :op1 "Great"
+                        :op2 "Britain")
+                  :wiki "United_Kingdom")
+            :mod (o / only)
+            :prep-on (b / bus))
+      :op2 (s / say-01
+            :ARG0 i
+            :ARG1 (c2 / come-01
+                  :ARG1 i
+                  :ARG3 (c3 / country
+                        :name (n2 / name
+                              :op1 "England")
+                        :wiki "England"))
+            :condition (a2 / ask-01
+                  :ARG2 i)))
+
+# ::id DF-200-192453-580_7549.3 ::speaker unk ::order 3 ::post p1 ::doc_type dfa
+# ::snt The guide then said, 'no you're not, you're from the United Kingdom' and started making a big deal out of it and I got quite embarassed.
+# ::save-date Tue May 19, 2015 ::file DF-200-192453-580_7549_3.txt
+(a / and
+      :op1 (s / say-01
+            :ARG0 (p / person
+                  :ARG0-of (g / guide-01))
+            :ARG1 (c / come-01
+                  :ARG1 (y / you)
+                  :ARG3 (c2 / country
+                        :name (n / name
+                              :op1 "United"
+                              :op2 "Kingdom")
+                        :wiki "United_Kingdom")))
+      :op2 (s2 / start-01
+            :ARG0 p
+            :ARG1 (m / make-01
+                  :ARG0 p
+                  :ARG1 (d / deal-03
+                        :mod (b / big))
+                  :ARG2 c))
+      :op3 (e / embarrass-01
+            :ARG1 (i2 / i)
+            :degree (q / quite)))
+
+# ::id DF-200-192453-580_7549.4 ::speaker unk ::order 4 ::post p1 ::doc_type dfa
+# ::snt I was actually really angry at that though because I identify far more as English than I do as British.
+# ::save-date Sat Dec 30, 2017 ::file DF-200-192453-580_7549_4.txt
+(a2 / anger-01
+      :ARG0 (t / that)
+      :ARG1 (i / i)
+      :ARG1-of (c / cause-01
+            :ARG0 (i2 / identify-01
+                  :ARG0 i
+                  :ARG1 i
+                  :ARG2 (p / person
+                        :mod (c2 / country
+                              :name (n / name
+                                    :op1 "England")
+                              :wiki "England"))
+                  :ARG2-of (h / have-degree-91
+                        :ARG1 i
+                        :ARG3 (m2 / more
+                              :quant (f / far))
+                        :ARG4 (i3 / identify-01
+                              :ARG0 i
+                              :ARG1 i
+                              :ARG2 (p2 / person
+                                    :mod (c3 / country
+                                          :name (n2 / name
+                                                :op1 "Great"
+                                                :op2 "Britain")
+                                          :wiki "United_Kingdom"))))))
+      :ARG1-of (a / actual-02)
+      :degree (r / really))
+
+# ::id DF-200-192453-580_7549.5 ::speaker unk ::order 5 ::post p1 ::doc_type dfa
+# ::snt When we were in the pub later on, two Argentinians also commented, saying that they didn't think it was right for him to say that, as you wouldn't expect a Scottish person to say that they were from the UK.
+# ::save-date Fri Oct 20, 2017 ::file DF-200-192453-580_7549_5.txt
+(c / comment-01
+      :ARG0 (p2 / person
+            :ARG0-of (s / say-01
+                  :ARG1 (t / think-01
+                        :ARG0 p2
+                        :ARG1 (r / right-02
+                              :ARG1 (s2 / say-01
+                                    :ARG0 (h / he)
+                                    :ARG1 (t2 / that)))
+                        :ARG1-of (c3 / cause-01
+                              :ARG0 (e / expect-01
+                                    :ARG0 (y / you)
+                                    :ARG1 (s3 / say-01
+                                          :ARG0 (p3 / person
+                                                :mod (c4 / country
+                                                      :name (n2 / name
+                                                            :op1 "Scotland")
+                                                      :wiki "Scotland"))
+                                          :ARG1 (b2 / be-from-91
+                                                :ARG1 p3
+                                                :ARG2 (c6 / country
+                                                      :name (n3 / name
+                                                            :op1 "United"
+                                                            :op2 "Kingdom")
+                                                      :wiki "United_Kingdom")))
+                                    :polarity -))
+                        :polarity -))
+            :mod (c2 / country
+                  :name (n / name
+                        :op1 "Argentina")
+                  :wiki "Argentina")
+            :quant 2)
+      :mod (a / also)
+      :time (b / be-located-at-91
+            :ARG1 (w2 / we)
+            :ARG2 (p4 / pub)
+            :time (a2 / after)))
+
+# ::id DF-200-192453-580_7549.6 ::speaker unk ::order 6 ::post p1 ::doc_type dfa
+# ::snt Is it only the English who aren't allowed this kind of pride in where they live?
+# ::save-date Tue Sep 12, 2017 ::file DF-200-192453-580_7549_6.txt
+(a / allow-01
+      :ARG1 (p / pride-01
+            :ARG0 (p2 / person
+                  :mod (c / country
+                        :name (n / name
+                              :op1 "England")
+                        :wiki "England")
+                  :mod (o / only))
+            :ARG1 (p3 / place
+                  :location-of (l / live-01
+                        :ARG0 p2))
+            :mod (k / kind
+                  :mod (t / this)))
+      :polarity -
+      :polarity (a2 / amr-unknown))
+
+# ::id DF-200-192453-580_7549.7 ::speaker unk ::order 7 ::post p2 ::doc_type dfa
+# ::snt Personally I find it nonsensical to be proud of something you haven't chosen or done, but it's up to you if you want to be proud where you come from.
+# ::save-date Fri Jul 31, 2015 ::file DF-200-192453-580_7549_7.txt
+(f / find-02
+      :ARG0 (i / i)
+      :ARG1 (s2 / sense-02
+            :ARG1 (p2 / pride-01
+                  :ARG0 (y / you)
+                  :ARG2 (s / something
+                        :ARG1-of (c / choose-01
+                              :ARG0 y
+                              :polarity -)
+                        :ARG1-of (d / do-02
+                              :ARG0 y
+                              :polarity -)))
+            :polarity -)
+      :ARG1-of (p / personal-02)
+      :concession (d2 / depend-01
+            :ARG0 (w / want-01
+                  :ARG0 y
+                  :ARG1 (p3 / pride-01
+                        :ARG0 y
+                        :ARG2 (p4 / place
+                              :ARG3-of (c2 / come-01
+                                    :ARG1 y))))
+            :ARG1 y))
+
+# ::id DF-200-192453-580_7549.8 ::speaker unk ::order 8 ::post p2 ::doc_type dfa
+# ::snt I couldn't care less really what my nationality was, it's just letters on a passport,
+# ::save-date Thu Nov 9, 2017 ::file DF-200-192453-580_7549_8.txt
+(p / possible-01
+      :ARG1 (h / have-degree-91
+            :ARG1 (i / i)
+            :ARG2 (c / care-01
+                  :ARG0 i
+                  :ARG1 (n / nationality
+                        :poss i))
+            :ARG3 (l / less))
+      :ARG1-of (c2 / cause-01
+            :ARG0 (l2 / letter
+                  :domain n
+                  :location (p2 / passport)
+                  :mod (j / just)))
+      :ARG1-of (r / real-04)
+      :polarity -)
+
+# ::id DF-200-192453-580_7549.9 ::speaker unk ::order 9 ::post p2 ::doc_type dfa
+# ::snt I still wonder what my identity is, a human being, a Brit, a European?
+# ::save-date Thu Nov 9, 2017 ::file DF-200-192453-580_7549_9.txt
+(w / wonder-01
+      :ARG0 (i / i)
+      :ARG1 (i2 / identify-01
+            :ARG1 i
+            :ARG2 (a / amr-choice
+                  :op1 (b / being
+                        :mod (h / human))
+                  :op2 (p / person
+                        :mod (c / country
+                              :name (n / name
+                                    :op1 "Great"
+                                    :op2 "Britain")
+                              :wiki "United_Kingdom"))
+                  :op3 (p2 / person
+                        :mod (c2 / continent
+                              :name (n2 / name
+                                    :op1 "Europe")
+                              :wiki "Europe"))))
+      :mod (s / still))
+
+# ::id DF-200-192453-580_7549.10 ::speaker unk ::order 10 ::post p2 ::doc_type dfa
+# ::snt No, I prefer to call myself a overgrown monkey.
+# ::save-date Wed Apr 9, 2014 ::file DF-200-192453-580_7549_10.txt
+(p / prefer-01
+      :ARG0 (i / i)
+      :ARG1 (c / call-01
+            :ARG0 i
+            :ARG1 i
+            :ARG2 (m / monkey
+                  :ARG1-of (o / overgrow-01))))
+
+# ::id DF-200-192453-580_7549.11 ::speaker unk ::order 11 ::post p6 ::doc_type dfa
+# ::snt You are allowed to state where you're from.
+# ::save-date Wed Apr 9, 2014 ::file DF-200-192453-580_7549_11.txt
+(a / allow-01
+      :ARG1 (s / state-01
+            :ARG0 (y / you)
+            :ARG1 (l / location
+                  :ARG3-of (c / come-01
+                        :ARG1 y))))
+
+# ::id DF-200-192453-580_7549.12 ::speaker unk ::order 12 ::post p6 ::doc_type dfa
+# ::snt That isn't pride. That's just a statement of fact.
+# ::save-date Thu May 1, 2014 ::file DF-200-192453-580_7549_12.txt
+(m / multi-sentence
+      :snt1 (p / pride-01
+            :domain (t / that)
+            :polarity -)
+      :snt2 (s2 / state-01
+            :ARG1 (f2 / fact)
+            :domain (t3 / that)
+            :mod (j2 / just)))
+
+# ::id DF-200-192453-580_7549.13 ::speaker unk ::order 13 ::post p6 ::doc_type dfa
+# ::snt I don't think there's anything massively wrong to to feel a sentimental pride towards your country,
+# ::save-date Wed Jan 17, 2018 ::file DF-200-192453-580_7549_13.txt
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (w / wrong-02
+            :ARG1 (a / anything)
+            :ARG2 (f / feel-01
+                  :ARG0 (y / you)
+                  :ARG1 (p / pride-01
+                        :ARG0 y
+                        :ARG1 (c / country
+                              :poss y)
+                        :manner (s / sentiment)))
+            :degree (m / massive))
+      :polarity -)
+
+# ::id DF-200-192453-580_7549.14 ::speaker unk ::order 14 ::post p6 ::doc_type dfa
+# ::snt it is human nature to feel attached to where you come from.
+# ::save-date Tue May 5, 2015 ::file DF-200-192453-580_7549_14.txt
+(n / nature
+      :domain (f / feel-01
+            :ARG0 (y / you)
+            :ARG1 (a / attach-01
+                  :ARG1 y
+                  :ARG2 (l / location
+                        :ARG3-of (c / come-01
+                              :ARG1 y))))
+      :mod (h / human))
+
+# ::id DF-200-192453-580_7549.15 ::speaker unk ::order 15 ::post p6 ::doc_type dfa
+# ::snt It is nationalism that becomes an issue.
+# ::save-date Tue Jul 21, 2015 ::file DF-200-192453-580_7549_15.txt
+(b / become-01
+      :ARG1 (n / nationalism)
+      :ARG2 (i / issue-02
+            :ARG0 n))
+
+# ::id DF-200-192453-580_7549.16 ::speaker unk ::order 16 ::post p6 ::doc_type dfa
+# ::snt His jumping down your throat was his problem.
+# ::save-date Wed Apr 9, 2014 ::file DF-200-192453-580_7549_16.txt
+(p / problem
+      :domain (j / jump-03
+            :ARG0 (h / he)
+            :direction (d / down
+                  :path (t / throat
+                        :poss (y / you))))
+      :poss h)
+
+# ::id DF-200-192453-580_7549.17 ::speaker unk ::order 17 ::post p6 ::doc_type dfa
+# ::snt You're from the UK and England so in my opinion which ever one you choose to identify yourself as you are correct.
+# ::save-date Sun Jul 26, 2015 ::file DF-200-192453-580_7549_17.txt
+(c / come-01
+      :ARG0-of (c4 / cause-01
+            :ARG1 (c5 / correct-02
+                  :ARG1 (y / you)
+                  :ARG1-of (o / opine-01
+                        :ARG0 (i / i))
+                  :concession (c6 / choose-01
+                        :ARG0 y
+                        :ARG1 (i2 / identify-01
+                              :ARG0 y
+                              :ARG1 y
+                              :ARG2 (o2 / one
+                                    :mod (w / whichever))))))
+      :ARG1 y
+      :ARG3 (a / and
+            :op1 (c2 / country
+                  :name (n / name
+                        :op1 "United"
+                        :op2 "Kingdom")
+                  :wiki "United_Kingdom")
+            :op2 (c3 / country
+                  :name (n2 / name
+                        :op1 "England")
+                  :wiki "England")))
+

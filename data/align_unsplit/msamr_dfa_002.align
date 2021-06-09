@@ -1,0 +1,195 @@
+
+# ::id DF-199-192784-587_4261.1 ::speaker unk ::order 1
+# ::tok We asked you : To save money , should local governments use nonviolent inmates for physical labor ?
+# ::alignments 0-1.1 1-1 2-1.3 4-1.2.r 5-1.2.1.4 6-1.2.1.4.2 8-1.2 9-1.2.1.1.2 10-1.2.1.1 10-1.2.1.1.1 10-1.2.1.1.1.r 11-1.2.1 11-1.2.1.4.r 12-1.2.1.2.1 12-1.2.1.2.1.1 12-1.2.1.2.1.1.r 13-1.2.1.2 14-1.2.1.3.r 15-1.2.1.3.1 16-1.2.1.3 17-1.2.2 17-1.2.2.r
+(a / ask-01~e.1
+      :ARG0 (w / we~e.0)
+      :ARG1~e.4 (r / recommend-01~e.8
+            :ARG1 (u / use-01~e.11
+                  :ARG0 (g / government-organization~e.10
+                        :ARG0-of~e.10 (g2 / govern-01~e.10)
+                        :ARG1-of (l / local-02~e.9))
+                  :ARG1 (i / inmate~e.13
+                        :mod (v / violence~e.12 :polarity~e.12 -~e.12))
+                  :purpose~e.14 (l2 / labor-01~e.16
+                        :mod (p / physical~e.15))
+                  :purpose~e.11 (s / save-01~e.5
+                        :ARG0 g
+                        :ARG1 (m / money~e.6)))
+            :polarity~e.17 (a2 / amr-unknown~e.17))
+      :ARG2 (y / you~e.2))
+
+# ::id DF-199-192784-587_4261.2 ::speaker unk ::order 2
+# ::tok That was the question in the other day 's opinion section of my my local newspaper .
+# ::alignments 0-1.1 3-1 4-1.2.r 6-1.2.2.1 7-1.2.2 8-1.2.2.r 9-1.2.1 10-1.2 11-1.2.3.r 12-1.2.3.2 13-1.2.3.2 14-1.2.3.1 15-1.2.3
+(q / question-01~e.3
+      :ARG1 (t / that~e.0)
+      :location~e.4 (s / section~e.10
+            :mod (o / opine-01~e.9)
+            :time~e.8 (d / day~e.7
+                  :mod (o2 / other~e.6))
+            :poss~e.11 (n / newspaper~e.15
+                  :ARG1-of (l / local-02~e.14)
+                  :poss (i / i~e.12,13))))
+
+# ::id DF-199-192784-587_4261.3 ::speaker unk ::order 3
+# ::tok YES : 92.6 % NO : 7.4 %
+# ::alignments 0-1.1 2-1.1.1.1 3-1.1.1 4-1.2 6-1.2.1.1 7-1.2.1
+(a / and
+      :op1 (y / yes~e.0
+            :mod (p / percentage-entity~e.3 :value 92.6~e.2))
+      :op2 (n / no~e.4
+            :mod (p2 / percentage-entity~e.7 :value 7.4~e.6)))
+
+# ::id DF-199-192784-587_4261.4 ::speaker unk ::order 4
+# ::tok So my qestion is this , should gov't turn to slaves to save money ?
+# ::alignments 0-1 1-1.1.1 1-1.1.1.r 6-1.1.2 7-1.1.2.1.1 7-1.1.2.1.1.1 7-1.1.2.1.1.1.r 8-1.1.2.1 9-1.1.2.1.2.r 10-1.1.2.1.2 12-1.1.2.1.3 13-1.1.2.1.3.2 14-1.1.2.2 14-1.1.2.2.r
+(c / cause-01~e.0
+      :ARG1 (q / question-01
+            :ARG0~e.1 (i / i~e.1)
+            :ARG1 (r / recommend-01~e.6
+                  :ARG1 (t2 / turn-14~e.8
+                        :ARG0 (g / government-organization~e.7
+                              :ARG0-of~e.7 (g2 / govern-01~e.7))
+                        :ARG1~e.9 (s / slave~e.10)
+                        :purpose (s2 / save-01~e.12
+                              :ARG0 g
+                              :ARG1 (m / money~e.13)))
+                  :polarity~e.14 (a / amr-unknown~e.14))))
+
+# ::id DF-199-192784-587_4261.5 ::speaker unk ::order 5
+# ::tok @David cv , Depending on country it is already done .
+# ::alignments 1-1.2.2.2 3-1.1.3 4-1.1.3.1.r 5-1.1.3.1 6-1.1.1 8-1.1.2 9-1.1
+(s / say-01
+      :ARG1 (d / do-02~e.9
+            :ARG1 (i / it~e.6)
+            :time (a / already~e.8)
+            :ARG0-of (d2 / depend-01~e.3
+                  :ARG1~e.4 (c / country~e.5)))
+      :ARG2 (p / person :wiki -
+            :name (n / name :op1 "David" :op2 "cv"~e.1)))
+
+# ::id DF-199-192784-587_4261.6 ::speaker unk ::order 6
+# ::tok Hard labour , chaingangs , prison farms Voluntary work while incarcerated gets minimal pay etc.
+# ::alignments 0-1.1.1.1 1-1.1.1 5-1.1.3.1 6-1.1.3 7-1.2.1.1 8-1.2.1 9-1.2.1.2.r 10-1.2.1.2 11-1.2 12-1.2.2.1 13-1.2.2 14-1.1 14-1.3
+(m / multi-sentence
+      :snt1 (a / and~e.14
+            :op1 (l / labor-01~e.1
+                  :ARG1-of (h / hard-02~e.0))
+            :op2 (c / chaingang)
+            :op3 (f / farm~e.6
+                  :mod (p / prison~e.5)))
+      :snt2 (g2 / get-01~e.11
+            :ARG0 (w2 / work-01~e.8
+                  :ARG1-of (v / voluntary-02~e.7)
+                  :time~e.9 (i2 / incarcerate-01~e.10))
+            :ARG1 (p4 / pay-01~e.13
+                  :ARG1-of (m2 / minimal-02~e.12)))
+      :snt3 (e / et-cetera~e.14))
+
+# ::id DF-199-192784-587_4261.7 ::speaker unk ::order 7
+# ::tok The option as voluntary will at least not require quotas and enforcement through violent means ( beatings ) or witholding of priveledges like food , bedding ( yes bedding ) or outdoor sunlight and isolation . ( legislativ brutality encouragement )
+# ::alignments 1-1.1.2 2-1.1.2.1.r 3-1.1.2.1 5-1.1.4 6-1.1.4 7-1.1.1 7-1.1.1.r 8-1.1 9-1.1.3.1 10-1.1.3 11-1.1.3.2 13-1.1.3.2.1 16-1.1.3.2.1.1 22-1.1.3.2.1.1.r 22-1.1.3.3.1.1.r 23-1.1.3.3.1.1.1 25-1.1.3.3.1.1.2 28-1.1.3.3.1.1.2 31-1.1.3.3.1.1.3.1 32-1.1.3.3.1.1.3 33-1.1.3.3.1.1 38-1.2.1 39-1.2
+(m / multi-sentence
+      :snt1 (r / require-01~e.8 :polarity~e.7 -~e.7
+            :ARG0 (o / option~e.1
+                  :ARG1-of~e.2 (v / voluntary-02~e.3))
+            :ARG1 (a / and~e.10
+                  :op1 (q / quota~e.9)
+                  :op2 (e / enforce-01~e.11
+                        :manner (v2 / violence~e.13
+                              :example~e.22 (b3 / beat-01~e.16)))
+                  :op3 (w / withhold-01
+                        :ARG1 (p / privilege
+                              :example~e.22 (a2 / and~e.33
+                                    :op1 (f / food~e.23)
+                                    :op2 (b / bedding~e.25,28)
+                                    :op3 (s / sunlight~e.32
+                                          :mod (o2 / outdoors~e.31)))))
+                  :op4 (i / isolate-01))
+            :mod (a3 / at-least~e.5,6))
+      :snt2 (e2 / encourage-02~e.39
+            :ARG1 (b2 / brutalize-01~e.38
+                  :manner (l2 / legislate-01))))
+
+# ::id DF-199-192784-587_4261.8 ::speaker unk ::order 8
+# ::tok The question is what kind of work is beneficial in a crime and punishment related way .
+# ::alignments 1-1.4 3-1.2 4-1.1.1 6-1.1 8-1 9-1.3.r 11-1.3.1.1.1 12-1.3.1.1 13-1.3.1.1.2 14-1.3.1 15-1.3
+(b / benefit-01~e.8
+      :ARG0 (w / work-01~e.6
+            :mod (k / kind~e.4))
+      :mod (a / amr-unknown~e.3)
+      :manner~e.9 (w2 / way~e.15
+            :mod (r / relate-01~e.14
+                  :ARG1 (a2 / and~e.12
+                        :op1 (c / crime-02~e.11)
+                        :op2 (p / punish-01~e.13))))
+      :ARG1-of (q / question-01~e.1))
+
+# ::id DF-199-192784-587_4261.9 ::speaker unk ::order 9
+# ::tok Some experiements are already implemented in disaster relief bushfires @/@ floods , comunity work as replacement for incarceration . ( Anti social behaviour treatment )
+# ::alignments 0-1.1.1.1 3-1.1.2 4-1.1 5-1.1.3.r 6-1.1.3.3.1 7-1.1.3.3 13-1.1.3 14-1.1.2.r 14-1.1.3.2.r 15-1.1.3.2 20-1.2.1.1 21-1.2.1.1.1 22-1.2.1 23-1.2
+(m / multi-sentence
+      :snt1 (i / implement-01~e.4
+            :ARG1 (e / experiment-01
+                  :quant (s / some~e.0))
+            :time~e.14 (a / already~e.3)
+            :location~e.5 (w / work-01~e.13
+                  :mod (c / community)
+                  :ARG2-of~e.14 (r2 / replace-01~e.15
+                        :ARG1 (i2 / incarcerate-01))
+                  :ARG0-of (r / relieve-01~e.7
+                        :ARG1 (d / disaster~e.6
+                              :example (s3 / slash
+                                    :op1 (b / bushfire)
+                                    :op2 (f / flood-01))))))
+      :snt2 (t / treat-03~e.23
+            :ARG2 (b2 / behave-01~e.22
+                  :ARG0-of (o / oppose-01~e.20
+                        :ARG1 (s2 / society~e.21)))))
+
+# ::id DF-199-192784-587_4261.10 ::speaker unk ::order 10
+# ::tok It really depends on the moral standards of the Nation in question .
+# ::alignments 0-1.1 1-1.3 2-1 3-1.2.r 5-1.2.1 6-1.2 7-1.2.2.r 9-1.2.2 10-1.2.2.1.r 11-1.2.2.1
+(d / depend-01~e.2
+      :ARG0 (i / it~e.0)
+      :ARG1~e.3 (s / standard~e.6
+            :ARG1-of (m / moral-02~e.5)
+            :poss~e.7 (n / nation~e.9
+                  :ARG1-of~e.10 (q / question-01~e.11)))
+      :ARG1-of (r / real-04~e.1))
+
+# ::id DF-199-192784-587_4261.11 ::speaker unk ::order 11
+# ::tok Forced labour in Europe compared to Africa or America is implemented differently
+# ::alignments 0-1.1.1 1-1.1 2-1.1.2.r 3-1.1.2.1.2.1 4-1.1.2 5-1.1.2.2.r 6-1.1.2.2.1.2.1 7-1.1.2.2 8-1.1.2.2.2.2.1 10-1 11-1.2
+(i / implement-01~e.10
+      :ARG1 (l / labor-01~e.1
+            :ARG2-of (f / force-01~e.0)
+            :mod~e.2 (c2 / compare-01~e.4
+                  :ARG1 (c / continent :wiki "Europe"
+                        :name (n / name :op1 "Europe"~e.3))
+                  :ARG2~e.5 (o / or~e.7
+                        :op1 (c3 / continent :wiki "Africa"
+                              :name (n2 / name :op1 "Africa"~e.6))
+                        :op2 (c4 / continent :wiki "Americas"
+                              :name (n3 / name :op1 "America"~e.8)))))
+      :manner (d / differ-02~e.11))
+
+# ::id DF-199-192784-587_4261.12 ::speaker unk ::order 12
+# ::tok Have'nt goverments @/@ corporations turned their populus trough a monetary reward @/@ tax system into working slaves anyway ?
+# ::alignments 2-1.1 3-1.1.2 4-1 9-1.6.1.1.1 10-1.6.1.1 11-1.6.1 12-1.6.1.2 13-1.6 14-1.3.r 15-1.3.1 16-1.3 17-1.5 18-1.4 18-1.4.r
+(t / turn-02~e.4
+      :ARG0 (s3 / slash~e.2
+            :op1 (g / government-organization
+                  :ARG0-of (g2 / govern-01))
+            :op2 (c / corporation~e.3))
+      :ARG1 (p / populace)
+      :ARG2~e.14 (s2 / slave~e.16
+            :ARG0-of (w / work-01~e.15))
+      :polarity~e.18 (a / amr-unknown~e.18)
+      :mod (a3 / anyway~e.17)
+      :manner (s / system~e.13
+            :mod (s4 / slash~e.11
+                  :op1 (r / reward-01~e.10
+                        :mod (m / money~e.9))
+                  :op2 (t2 / tax-01~e.12))))
