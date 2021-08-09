@@ -3,7 +3,7 @@ import json
 
 
 def parse_config(parser):
-    # best 57.9 in test
+    
     parser.add_argument("--train_data", default='./data/corpora_base/evl')
     parser.add_argument("--dev_data", default='./data/corpora_base/evl')
     parser.add_argument("--test_data", default='./data/corpora_base/evl')
