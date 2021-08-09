@@ -79,18 +79,19 @@ python train.py
 
 If you find our code is useful, please cite:
 ```
-@inproceedings{fu-etal-2020-drts,
-    title = "{DRTS} Parsing with Structure-Aware Encoding and Decoding",
+@inproceedings{fu-etal-2021-end,
+    title = "End-to-End {AMR} Corefencence Resolution",
     author = "Fu, Qiankun  and
-      Zhang, Yue  and
-      Liu, Jiangming  and
-      Zhang, Meishan",
-    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
-    month = jul,
-    year = "2020",
+      Song, Linfeng  and
+      Du, Wenyu  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
     address = "Online",
     publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2020.acl-main.609",
-    doi = "10.18653/v1/2020.acl-main.609",
-    pages = "6818--6828",}
+    url = "https://aclanthology.org/2021.acl-long.324",
+    doi = "10.18653/v1/2021.acl-long.324",
+    pages = "4204--4214"
+}
 ```
